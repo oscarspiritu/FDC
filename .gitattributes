@@ -1,0 +1,5 @@
+# Archivos pesados de cada curso viajan con Git LFS (voces y clips); el kit y las marcas son ligeros y van normales.
+cursos/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+cursos/**/*.wav filter=lfs diff=lfs merge=lfs -text
+cursos/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+cursos/**/*.mov filter=lfs diff=lfs merge=lfs -text

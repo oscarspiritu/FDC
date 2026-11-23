@@ -1,0 +1,19 @@
+{
+  "description": "Voz de los cursos CAPES: la misma H3 de SAR Solutions (hombre mexicano de 24 años, cálido y relajado), elegida por Os el 2026-10-19. Clon Qwen3 desde assets/voz-oficial-h3.wav (copia de brands/sar-solutions).",
+  "qwen3": {
+    "speaker": "Ryan",
+    "language": "Spanish",
+    "tone": "",
+    "instruct": "",
+    "clone": {
+      "refAudio": "assets/voz-oficial-h3.wav",
+      "refText": "¿Quieres aprender algo nuevo sin salir de casa? Con SAR Solutions estudias cursos en línea a tu propio ritmo.",
+      "designBrief": "A chill, confident young Latin American man, 24 years old, native Mexican Spanish speaker with a neutral accent. Warm, smooth and youthful voice, laid-back but clear, like a friendly podcast host in his twenties. Speaks at a relaxed, natural pace, never rushed."
+    }
+  },
+  "recommended": {
+    "provider": "qwen3",
+    "cloud": "modal",
+    "maxWpm": 160
+  }
+}

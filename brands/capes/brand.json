@@ -1,0 +1,47 @@
+{
+  "name": "CAPES",
+  "description": "CAPES Capacitación Estudiantil (capestudiantil.com.mx). Cursos de Excel para oficinistas y estudiantes. Paleta turquesa + naranja de los anuncios de Excel (projects/capes-excel, capes-excel-buscarv) sobre fondo claro; turquesa profundo del sitio para escenas oscuras. Verde Excel solo en la ventana de Excel. Voz H3 (ver voice.json). ESTADO: aprobada por Os el 2026-10-19 (hoja de identidad, entrada, lección tipo y cierre).",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#0AA6C0",
+    "primaryLight": "#25C3DA",
+    "primaryDark": "#0293AC",
+    "accent": "#F67A15",
+    "accentLight": "#FB8C2C",
+    "accentDark": "#E0680C",
+    "bgDark": "#06787B",
+    "bgLight": "#F7FAFC",
+    "textDark": "#15171C",
+    "textLight": "#FFFFFF",
+    "excel": "#217346",
+    "excelDark": "#185C37",
+    "grid": "#E1E5EA",
+    "gradPrimary": "linear-gradient(150deg, #2BC8DE, #03A2BC)",
+    "gradAccent": "linear-gradient(160deg, #FB8C2C, #F67A15)"
+  },
+  "fonts": {
+    "headline": "Poppins",
+    "body": "Poppins",
+    "logo": "Montserrat 900"
+  },
+  "logo": {
+    "full": "código: projects/capes-excel-buscarv/src/Logo.tsx (CA turquesa, PES naranja, birrete, CAPACITACIÓN ESTUDIANTIL y flecha)",
+    "web": "https://capestudiantil.com.mx/capes/assets/img/logo-capes.png (no descargable desde aquí; bajar a mano si se necesita PNG)",
+    "onDark": "CA en blanco, PES en #FB8C2C"
+  },
+  "intro": "4 s. Fondo claro; bloques turquesa (arriba izq.) y naranja (arriba der. y barra lateral) entran deslizando; letras CAPES saltan, cae el birrete, se revela CAPACITACIÓN ESTUDIANTIL y se dibuja la flecha; a la derecha suben el kicker (ícono de hoja + EXCEL <CURSO> · MÓDULO N) y el título de la lección con la palabra clave en píldora turquesa.",
+  "outro": "5 s. Mismos bloques; logo, 'Continúa con la siguiente lección' (lección en píldora turquesa), palomita 'Descarga el archivo de práctica de esta lección' y botón tinta 'capestudiantil.com.mx'. Sin precios.",
+  "lesson": {
+    "layout": "Grabación de Excel para Mac dentro de ventana con sombra sobre fondo claro; cinta turquesa arriba a la izquierda con CAPES | MNN · LNN · tema.",
+    "shortcutCard": "Cada atajo o menú: ficha a la derecha con WINDOWS (turquesa, teclas Ctrl…) arriba, MAC (tinta, teclas ⌘ Cmd…) abajo y franja naranja con la acción. La voz dice ambos: 'En Windows es Control…; en Mac, Comando…'.",
+    "subtitles": "Poppins 600, 38 px, blanco sobre tinta al 86 %, radio 16; palabra clave en #25C3DA. Además .srt.",
+    "watermark": {
+      "corner": 0.5,
+      "pattern": 0.06,
+      "patternLight": 0.065,
+      "cornerLight": 0.58
+    },
+    "brandMentions": "CAPES 2 o 3 veces por video"
+  },
+  "preview": "https://claude.ai/artifact/391CpYkS1HZx8CFGUc58Na"
+}

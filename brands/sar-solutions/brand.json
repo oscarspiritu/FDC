@@ -1,0 +1,35 @@
+{
+  "name": "SAR Solutions",
+  "description": "Cursos en línea. Azul corporativo marino + cian, look tech juvenil. Voz oficial: H3 (ver voice.json).",
+  "version": "1.0.0",
+
+  "colors": {
+    "primary": "#1E6BFF",
+    "primaryLight": "#22D3EE",
+    "textDark": "#071530",
+    "textMedium": "#334155",
+    "textLight": "#94A3B8",
+    "bgLight": "#FFFFFF",
+    "bgDark": "#071530",
+    "bgOverlay": "rgba(7, 21, 48, 0.92)",
+    "divider": "#1E3A6B",
+    "shadow": "rgba(0, 0, 0, 0.35)",
+    "warn": "#FF5A6E"
+  },
+
+  "fonts": {
+    "primary": "\"Avenir Next\", Inter, system-ui, -apple-system, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, \"SF Mono\", Menlo, monospace"
+  },
+
+  "spacing": { "xs": 8, "sm": 16, "md": 24, "lg": 48, "xl": 80, "xxl": 120 },
+  "borderRadius": { "sm": 7, "md": 12, "lg": 16 },
+
+  "typography": {
+    "h1": { "size": 88, "weight": 800 },
+    "h2": { "size": 72, "weight": 800 },
+    "h3": { "size": 48, "weight": 700 },
+    "body": { "size": 44, "weight": 500 },
+    "label": { "size": 34, "weight": 700, "letterSpacing": 3 }
+  }
+}

@@ -1,0 +1,102 @@
+name: Renderizar curso
+
+# Se lanza a mano: pestaña Actions → "Renderizar curso" → Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      curso:
+        description: "Carpeta del curso dentro de cursos/ (ej. nom-051)"
+        required: true
+        type: string
+      lecciones:
+        description: "Lecciones separadas por espacio (ej. M01-L01 M01-L02) o 'todas'"
+        required: true
+        default: "M01-L01"
+        type: string
+      crf:
+        description: "Calidad (23 normal; menor = mejor y más pesado)"
+        required: false
+        default: "23"
+        type: string
+      enviar_al_vps:
+        description: "Mandar los MP4 al servidor (/srv/fdc). Requiere los secretos VPS_*"
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    outputs:
+      matriz: ${{ steps.m.outputs.matriz }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        env:
+          CURSO: ${{ inputs.curso }}
+          LECCIONES: ${{ inputs.lecciones }}
+        run: |
+          set -e
+          [ -d "cursos/$CURSO" ] || { echo "No existe cursos/$CURSO"; exit 1; }
+          if [ "$LECCIONES" = "todas" ]; then
+            LISTA=$(ls "cursos/$CURSO/public" 2>/dev/null | grep -E '^M[0-9]+-L[0-9]+$' || true)
+          else
+            LISTA=$(echo "$LECCIONES" | tr ' ,' '\n\n' | grep -E '^M[0-9]+-L[0-9]+$' || true)
+          fi
+          [ -n "$LISTA" ] || { echo "No hay lecciones para renderizar"; exit 1; }
+          echo "matriz=$(echo "$LISTA" | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+
+  renderizar:
+    needs: preparar
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        leccion: ${{ fromJson(needs.preparar.outputs.matriz) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: kit/package-lock.json
+      - name: Dependencias del sistema (ffmpeg y librerías de Chrome)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libgbm-dev libatk-bridge2.0-0 libcups2
+      - name: Renderizar ${{ matrix.leccion }}
+        env:
+          CRF: ${{ inputs.crf }}
+        run: scripts/render_leccion.sh "${{ inputs.curso }}" "${{ matrix.leccion }}" out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.curso }}-${{ matrix.leccion }}
+          path: out/${{ inputs.curso }}/${{ matrix.leccion }}.*
+          retention-days: 14
+          if-no-files-found: error
+
+  enviar_al_vps:
+    needs: renderizar
+    if: ${{ inputs.enviar_al_vps }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: entrega
+          pattern: ${{ inputs.curso }}-*
+          merge-multiple: true
+      - name: Enviar a /srv/fdc
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          [ -n "$VPS_SSH_KEY" ] && [ -n "$VPS_HOST" ] || { echo "Faltan los secretos VPS_HOST / VPS_USER / VPS_SSH_KEY"; exit 1; }
+          install -m 600 /dev/null key; printf '%s\n' "$VPS_SSH_KEY" > key
+          DEST="/srv/fdc/render-actions/${{ inputs.curso }}/"
+          ssh -i key -o StrictHostKeyChecking=accept-new "$VPS_USER@$VPS_HOST" "mkdir -p $DEST"
+          rsync -av -e "ssh -i key" entrega/ "$VPS_USER@$VPS_HOST:$DEST"

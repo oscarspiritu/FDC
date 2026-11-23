@@ -1,0 +1,20 @@
+{
+  "name": "STAYVER",
+  "description": "STAYVER (stayver.com.mx). Cursos en verde y blanco solamente: el verde del logo (#65B546) y sus variantes oscuras para fondos. El marino #15435A solo vive dentro del logo. Voz: H3 de SAR (ver voice.json).",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#65B546",
+    "primaryLight": "#9BD67F",
+    "primaryDark": "#2E6B33",
+    "bgDark": "#123D1E",
+    "bgLight": "#FFFFFF",
+    "paper": "#F4F8F2",
+    "textDark": "#123D1E",
+    "textLight": "#FFFFFF",
+    "logoNavy": "#15435A"
+  },
+  "fonts": { "headline": "Bodoni Moda", "body": "Inter" },
+  "logo": { "full": "assets/logo.png", "layers": "projects/stayver-promo/public/logo/{letters,check,slash}.png" },
+  "intro": "Logo STAYVER sobre fondo blanco: el slash verde cae, las letras entran de izquierda a derecha y la palomita aparece. Debajo, kicker verde y título de la lección.",
+  "outro": "Logo sobre blanco + 'Continúa con la siguiente lección' + STAYVER.COM.MX"
+}

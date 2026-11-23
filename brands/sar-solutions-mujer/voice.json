@@ -1,0 +1,19 @@
+{
+  "description": "Voz femenina de SAR Solutions: locutora mexicana de 25 años, cálida, algo ronca y carismática (F2). Creada con Qwen3 VoiceDesign el 2026-10-02 y usada como referencia de clonación. Reemplazó a M1, que sonaba aniñada. NO borrar assets/voz-oficial-f2.wav: volver a diseñarla daría una voz distinta.",
+  "qwen3": {
+    "speaker": "Ryan",
+    "language": "Spanish",
+    "tone": "",
+    "instruct": "",
+    "clone": {
+      "refAudio": "assets/voz-oficial-f2.wav",
+      "refText": "¿Quieres aprender algo nuevo sin salir de casa? Con SAR Solutions estudias cursos en línea a tu propio ritmo.",
+      "designBrief": "A young Mexican radio host, 25 years old, native Latin American Spanish speaker. Warm, slightly husky, expressive voice with natural charisma, upbeat but grounded, like a popular young radio or podcast presenter. Adult woman's voice with a mature, full timbre and medium-low pitch; absolutely not childlike, not a girl, not high-pitched or squeaky. Speaks at a relaxed, natural pace, never rushed."
+    }
+  },
+  "recommended": {
+    "provider": "qwen3",
+    "cloud": "modal",
+    "maxWpm": 160
+  }
+}
