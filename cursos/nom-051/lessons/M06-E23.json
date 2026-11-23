@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M06-E23",
+  "curso": "NOM-051",
+  "modulo": "Prohibiciones y declaraciones · Ejemplo",
+  "titulo": "sin azúcar en",
+  "tituloItalic": "mermelada de Oaxaca"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una mermelada artesanal de Oaxaca decía sin azúcar añadida pero usaba jugo concentrado de manzana como endulzante.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "OAXACA · MERMELADA",
+    "title": "«Sin azúcar»,\n¿*seguro*?",
+    "body": "Mermelada con «sin azúcar añadida»",
+    "icon": "Apple",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Una revisión pidió pruebas. La empresa quitó la leyenda.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Mermelada con «sin azúcar añadida»",
+      "at": "revisión",
+      "cueFrac": 0.111
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Usaba jugo concentrado de manzana",
+      "at": "pruebas",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Quitó la leyenda",
+      "at": "quitó",
+      "cueFrac": 0.667
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: no afirmar lo que no puedes sustentar.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "No afirmar lo que no puedes sustentar",
+      "at": "pide",
+      "cueFrac": 0.167
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

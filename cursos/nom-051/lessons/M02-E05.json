@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M02-E05",
+  "curso": "NOM-051",
+  "modulo": "Información comercial · Ejemplo",
+  "titulo": "Sabor Casero en una",
+  "tituloItalic": "fábrica de salsas de Puebla"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una fábrica de salsas en Puebla vendía un frasco con la leyenda grande Sabor Casero.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "PUEBLA · SALSAS",
+    "title": "«Sabor Casero»,\n¿y qué *es*?",
+    "body": "Frasco con «Sabor Casero» en grande",
+    "icon": "UtensilsCrossed",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Nada decía que era salsa de chile chipotle. Profeco le pidió precisar la denominación. Rediseñó la cara frontal con Salsa de chile chipotle.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Frasco con «Sabor Casero» en grande",
+      "at": "Nada",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Nada decía que era salsa de chile chipotle",
+      "at": "chipotle",
+      "cueFrac": 0.304
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Rediseñó con «Salsa de chile chipotle»",
+      "at": "Rediseñó",
+      "cueFrac": 0.609
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: nombrar el producto por lo que es.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Nombrar el producto por lo que es",
+      "at": "pide",
+      "cueFrac": 0.167
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

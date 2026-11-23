@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "id": "M04-L18",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia",
+  "titulo": "Ubicación y tamaños"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Los sellos van en la esquina superior derecha de la superficie principal de exhibición. En superficies menores a sesenta centímetros cuadrados pueden ir en cualquier área.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "DÓNDE VAN",
+    "title": "Esquina *superior derecha*",
+    "items": [
+     {
+      "icon": "MoveUpRight",
+      "text": "Superficie principal",
+      "sub": "Esquina superior derecha",
+      "at": "sellos",
+      "cueFrac": 0.038
+     },
+     {
+      "icon": "Maximize2",
+      "text": "Menor a 60 cm²",
+      "sub": "Pueden ir en cualquier área",
+      "at": "superficie",
+      "cueFrac": 0.385
+     },
+     {
+      "icon": "Ruler",
+      "text": "Tamaño",
+      "sub": "Depende de la superficie",
+      "at": "menores",
+      "cueFrac": 0.615
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "El tamaño depende de la superficie: de más de treinta hasta sesenta centímetros cuadrados, uno punto cinco por uno punto sesenta y seis centímetros; de más de cien hasta doscientos, dos punto cinco por dos punto setenta y siete; de más de trescientos, tres punto cinco por tres punto ochenta y ocho. Las demás medidas están en la Tabla A uno. Mide tu superficie antes de imprimir. Sar Solutions te recomienda tener una plantilla por cada formato de envase.",
+   "visual": {
+    "type": "stats",
+    "theme": "light",
+    "kicker": "TABLA A1 · EJEMPLOS",
+    "title": "Tamaño según *superficie*",
+    "items": [
+     {
+      "value": "1.5 × 1.66 cm",
+      "label": "De 30 a 60 cm²",
+      "at": "tamaño",
+      "cueFrac": 0.013
+     },
+     {
+      "value": "2.5 × 2.77 cm",
+      "label": "De 100 a 200 cm²",
+      "at": "cien",
+      "cueFrac": 0.342
+     },
+     {
+      "value": "3.5 × 3.88 cm",
+      "label": "Más de 300 cm²",
+      "at": "demás",
+      "cueFrac": 0.671
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

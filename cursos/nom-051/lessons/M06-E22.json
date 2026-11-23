@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M06-E22",
+  "curso": "NOM-051",
+  "modulo": "Prohibiciones y declaraciones · Ejemplo",
+  "titulo": "cereal con mascota",
+  "tituloItalic": "en Mexicali"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Un cereal de Mexicali traía un zorrito de caricatura y un juego descargable por QR.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "MEXICALI · CEREAL",
+    "title": "La mascota y\nlos *sellos*",
+    "body": "Cereal con zorrito de caricatura y juego por QR",
+    "icon": "Smile",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Con dos sellos, el área jurídica concluyó que debía retirar ambos. Reformularon o rediseñaron.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Cereal con zorrito de caricatura y juego por QR",
+      "at": "sellos",
+      "cueFrac": 0.143
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Con dos sellos, el área jurídica dijo no",
+      "at": "área",
+      "cueFrac": 0.286
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Rediseñaron sin mascota ni juego",
+      "at": "debía",
+      "cueFrac": 0.571
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: sellos y personajes dirigidos a niños no conviven.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Sellos y personajes dirigidos a niños no conviven",
+      "at": "pide",
+      "cueFrac": 0.154
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

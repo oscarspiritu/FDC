@@ -1,0 +1,126 @@
+{
+ "meta": {
+  "id": "M09-L31",
+  "curso": "NOM-051",
+  "modulo": "Taller",
+  "titulo": "Lista de verificación de",
+  "tituloItalic": "una etiqueta, paso a paso"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Llegó el momento de practicar.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TALLER",
+    "title": "Lista de verificación\nde una *etiqueta*",
+    "icon": "ClipboardCheck",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Paso uno: confirmar que el producto está preenvasado y no excluido. Dos: denominación. Tres: lista de ingredientes. Cuatro: contenido neto. Cinco: responsable y domicilio. Seis: país de origen.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "PASOS 1 A 6",
+    "title": "Primeros *seis* pasos",
+    "items": [
+     {
+      "icon": "Package",
+      "text": "1. Preenvasado y no excluido",
+      "at": "Paso",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "Type",
+      "text": "2. Denominación",
+      "at": "producto",
+      "cueFrac": 0.179
+     },
+     {
+      "icon": "ListOrdered",
+      "text": "3. Lista de ingredientes",
+      "at": "excluido",
+      "cueFrac": 0.357
+     },
+     {
+      "icon": "Scale",
+      "text": "4. Contenido neto",
+      "at": "denominación",
+      "cueFrac": 0.429
+     },
+     {
+      "icon": "Building2",
+      "text": "5. Responsable y domicilio",
+      "at": "ingredientes",
+      "cueFrac": 0.571
+     },
+     {
+      "icon": "Globe",
+      "text": "6. País de origen",
+      "at": "Cinco",
+      "cueFrac": 0.714
+     }
+    ],
+    "layout": "full",
+    "cols": 2,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Siete: lote y fecha. Ocho: declaración nutrimental. Nueve: perfil y sellos. Diez: leyendas de edulcorantes y cafeína. Once: personajes y declaraciones. Doce: idioma y presentación. Descarga la lista de verificación de Sar Solutions y úsala con tu producto.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "PASOS 7 A 12",
+    "title": "Siguientes *seis*",
+    "items": [
+     {
+      "icon": "Barcode",
+      "text": "7. Lote y fecha",
+      "at": "Siete",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "ClipboardList",
+      "text": "8. Declaración nutrimental",
+      "at": "nutrimental",
+      "cueFrac": 0.158
+     },
+     {
+      "icon": "OctagonAlert",
+      "text": "9. Perfil y sellos",
+      "at": "leyendas",
+      "cueFrac": 0.316
+     },
+     {
+      "icon": "Coffee",
+      "text": "10. Leyendas de edulcorantes y cafeína",
+      "at": "personajes",
+      "cueFrac": 0.474
+     },
+     {
+      "icon": "Ban",
+      "text": "11. Personajes y declaraciones",
+      "at": "presentación",
+      "cueFrac": 0.632
+     },
+     {
+      "icon": "Languages",
+      "text": "12. Idioma y presentación",
+      "at": "Solutions",
+      "cueFrac": 0.842
+     }
+    ],
+    "layout": "full",
+    "cols": 2,
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

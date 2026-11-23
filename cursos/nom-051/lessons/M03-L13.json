@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M03-L13",
+  "curso": "NOM-051",
+  "modulo": "Información nutrimental",
+  "titulo": "Presentación de la",
+  "tituloItalic": "declaracióny cálculo de energía"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La tabla nutrimental tiene reglas de presentación en el numeral cuatro punto cinco punto dos punto cuatro: formato, orden y legibilidad.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN NUTRIMENTAL",
+    "title": "Presentación y\n*energía*",
+    "body": "Numerales 4.5.2.4 y 5.1.1",
+    "icon": "Flame",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Y la energía se calcula conforme al numeral cinco punto uno punto uno, con factores por nutrimento.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "CÓMO SE CALCULA",
+    "title": "Factores de *energía*",
+    "items": [
+     {
+      "icon": "Flame",
+      "text": "Carbohidratos y proteínas",
+      "sub": "4 kcal por gramo",
+      "at": "energía",
+      "cueFrac": 0.118
+     },
+     {
+      "icon": "Flame",
+      "text": "Grasas",
+      "sub": "9 kcal por gramo",
+      "at": "calcula",
+      "cueFrac": 0.235
+     },
+     {
+      "icon": "Wine",
+      "text": "Alcohol",
+      "sub": "7 kcal por gramo",
+      "at": "cinco",
+      "cueFrac": 0.471
+     },
+     {
+      "icon": "Type",
+      "text": "Fuente mínima",
+      "sub": "1.5 mm (4.5.2.4.7 BIS)",
+      "at": "factores",
+      "cueFrac": 0.824
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Un error clásico es sumar mal las calorías. Sar Solutions te recomienda validar el cálculo con una hoja de verificación.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TIP",
+    "title": "Valida el cálculo con\nuna hoja de *verificación*",
+    "icon": "Calculator",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

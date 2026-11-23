@@ -39,9 +39,9 @@ jobs:
           set -e
           [ -d "cursos/$CURSO" ] || { echo "No existe cursos/$CURSO"; exit 1; }
           if [ "$LECCIONES" = "todas" ]; then
-            LISTA=$(ls "cursos/$CURSO/public" 2>/dev/null | grep -E '^M[0-9]+-L[0-9]+$' || true)
+            LISTA=$(ls "cursos/$CURSO/public" 2>/dev/null | grep -E '^M[0-9]+-[LE][0-9]+$' || true)
           else
-            LISTA=$(echo "$LECCIONES" | tr ' ,' '\n\n' | grep -E '^M[0-9]+-L[0-9]+$' || true)
+            LISTA=$(echo "$LECCIONES" | tr ' ,' '\n\n' | grep -E '^M[0-9]+-[LE][0-9]+$' || true)
           fi
           [ -n "$LISTA" ] || { echo "No hay lecciones para renderizar"; exit 1; }
           echo "matriz=$(echo "$LISTA" | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"

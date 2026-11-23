@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M03-E14",
+  "curso": "NOM-051",
+  "modulo": "Información nutrimental · Ejemplo",
+  "titulo": "sodio redondeado a ojo en una",
+  "tituloItalic": "fábrica de sopas de Querétaro"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una fábrica de sopas instantáneas de Querétaro redondeaba el sodio al múltiplo de diez que le parecía.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "QUERÉTARO · SOPAS",
+    "title": "Sodio\nredondeado «a *ojo*»",
+    "body": "Redondeaba al múltiplo de diez que le parecía",
+    "icon": "Soup",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Una verificación mostró que la cifra rebasaba la tolerancia. Aplicaron la Tabla cinco y documentaron.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Redondeaba al múltiplo de diez que le parecía",
+      "at": "verificación",
+      "cueFrac": 0.067
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "La cifra rebasaba la tolerancia",
+      "at": "cifra",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Aplicaron la Tabla 5 y documentaron",
+      "at": "Tabla",
+      "cueFrac": 0.733
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: redondear con la tabla.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Redondear con la tabla",
+      "at": "pide",
+      "cueFrac": 0.222
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

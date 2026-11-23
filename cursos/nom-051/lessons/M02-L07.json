@@ -1,0 +1,71 @@
+{
+ "meta": {
+  "id": "M02-L07",
+  "curso": "NOM-051",
+  "modulo": "Información comercial",
+  "titulo": "Contenido neto",
+  "tituloItalic": "y masa drenada"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El contenido neto es lo que realmente compra el cliente.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN COMERCIAL",
+    "title": "Contenido neto y\n*masa drenada*",
+    "body": "Numeral 4.2.3.1",
+    "icon": "Scale",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "En la norma original, numeral cuatro punto dos punto tres punto uno, se declara en unidades del Sistema General de Unidades de Medida conforme a la NOM cero treinta SCFI dos mil seis. Si el producto viene en líquido de cobertura, se declara también la masa drenada. Cuida la altura mínima de los caracteres según el tamaño del envase y colócalo en la superficie principal.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "CÓMO DECLARARLO",
+    "title": "Lo que *compra* tu cliente",
+    "items": [
+     {
+      "icon": "Scale",
+      "text": "Contenido neto",
+      "sub": "En unidades del SGUM",
+      "at": "norma",
+      "cueFrac": 0.034
+     },
+     {
+      "icon": "Droplets",
+      "text": "Masa drenada",
+      "sub": "Cuando aplique, con líquido de cobertura",
+      "at": "Unidades",
+      "cueFrac": 0.339
+     },
+     {
+      "icon": "FileCheck",
+      "text": "NOM-030-SCFI-2006",
+      "sub": "Conforme a esta norma",
+      "at": "masa",
+      "cueFrac": 0.661
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Sar Solutions te recomienda comparar tres envases del mismo lote con la etiqueta.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TIP",
+    "title": "Compara tres envases\ndel mismo *lote*",
+    "icon": "ClipboardCheck",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

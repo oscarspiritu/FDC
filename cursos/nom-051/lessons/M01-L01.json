@@ -1,0 +1,116 @@
+{
+ "meta": {
+  "id": "M01-L01",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance",
+  "titulo": "A quién y a qué",
+  "tituloItalic": "productos aplica"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Bienvenido a este curso de Sar Solutions sobre el etiquetado de alimentos y bebidas. La norma oficial mexicana NOM cero cincuenta y uno establece la información comercial y sanitaria que debe llevar la etiqueta de los alimentos y bebidas no alcohólicas preenvasados, sean de fabricación nacional o extranjera.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "NOM-051 · ALCANCE",
+    "title": "¿A quién aplica\nla *norma*?",
+    "body": "Alimentos y bebidas no alcohólicas preenvasados",
+    "icon": "PackageCheck",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Preenvasado quiere decir que el producto ya viene envasado cuando llega al consumidor: una bolsa de botana, una botella de jugo, una caja de galletas. La norma tiene excepciones.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "QUÉ ES PREENVASADO",
+    "title": "¿Te *aplica*?",
+    "items": [
+     {
+      "icon": "Package",
+      "text": "Producto preenvasado",
+      "sub": "Ya viene envasado al consumidor",
+      "at": "Preenvasado",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "Globe",
+      "text": "Nacional o extranjero",
+      "sub": "Cualquier origen",
+      "at": "llega",
+      "cueFrac": 0.345
+     },
+     {
+      "icon": "ShieldAlert",
+      "text": "Sellos de advertencia",
+      "sub": "Sistema de etiquetado frontal desde 2020",
+      "at": "botella",
+      "cueFrac": 0.621
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "No aplica a los productos que cuentan con su propia norma oficial mexicana específica, siempre que esa norma no tome como referencia a la NOM cero cincuenta y uno; tampoco a los productos a granel ni a los que se envasan en el punto de venta. La modificación de dos mil veinte añadió algo central: un sistema de etiquetado frontal de advertencia, los famosos sellos negros. Antes de cada etiqueta, la pregunta es la misma: ¿mi producto está preenvasado y no está excluido? Si la respuesta es sí, la norma te aplica. En Sar Solutions te enseñamos a revisarlo paso a paso.",
+   "visual": {
+    "type": "compare",
+    "theme": "dark",
+    "kicker": "ALCANCE",
+    "title": "Sí aplica · No aplica",
+    "cards": [
+     {
+      "label": "Sí aplica",
+      "tone": "ok",
+      "items": [
+       {
+        "text": "Bolsa de botana",
+        "at": "aplica",
+        "cueFrac": 0.01
+       },
+       {
+        "text": "Botella de jugo",
+        "at": "norma",
+        "cueFrac": 0.173
+       },
+       {
+        "text": "Caja de galletas",
+        "at": "envasan",
+        "cueFrac": 0.367
+       }
+      ],
+      "at": "aplica"
+     },
+     {
+      "label": "No aplica",
+      "tone": "warn",
+      "items": [
+       {
+        "text": "Producto a granel",
+        "at": "añadió",
+        "cueFrac": 0.49
+       },
+       {
+        "text": "Envasado en el punto de venta",
+        "at": "etiqueta",
+        "cueFrac": 0.663
+       },
+       {
+        "text": "Con NOM propia que no la toma como referencia",
+        "at": "respuesta",
+        "cueFrac": 0.827
+       }
+      ],
+      "at": "añadió"
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

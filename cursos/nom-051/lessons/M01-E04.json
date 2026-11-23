@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M01-E04",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance · Ejemplo",
+  "titulo": "la tabla de",
+  "tituloItalic": "perfiles que cambia"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una empacadora de cereales de Irapuato seguía calculando sus sellos con los criterios de la segunda fase.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "IRAPUATO · CEREALES",
+    "title": "La tabla\nque *cambia*",
+    "body": "Calculaba sellos con criterios de la 2.ª fase",
+    "icon": "Table",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Su abogada revisó el Diario Oficial y vio que, según el acuerdo de dos mil veinticinco, desde el primero de enero de dos mil veintiséis se aplica íntegramente la Tabla seis. Recalculó, documentó la fecha de revisión y rediseñó antes de imprimir.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Calculaba sellos con criterios de la 2.ª fase",
+      "at": "abogada",
+      "cueFrac": 0.024
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Desde el 1 de enero de 2026 aplica la Tabla 6",
+      "at": "veinticinco",
+      "cueFrac": 0.357
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Recalculó, documentó la fecha y rediseñó",
+      "at": "Tabla",
+      "cueFrac": 0.69
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: dejar por escrito la versión y la fecha con la que calculas.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Dejar por escrito la versión y la fecha con la que calculas",
+      "at": "pide",
+      "cueFrac": 0.118
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

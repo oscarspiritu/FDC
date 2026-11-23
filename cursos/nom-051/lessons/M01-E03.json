@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M01-E03",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance · Ejemplo",
+  "titulo": "el proveedor que",
+  "tituloItalic": "citó la norma nueva"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Un comprador de una cadena de tiendas en Monterrey le dijo a una fábrica de botanas: cumplan con la norma nueva.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "MONTERREY · BOTANAS",
+    "title": "¿Qué es la\n«norma *nueva*»?",
+    "body": "Un comprador pide cumplir «la norma nueva»",
+    "icon": "FileQuestion",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La fábrica no sabía cuál. Su responsable de calidad pidió el documento y la fecha. Era el acuerdo de dos mil veinticinco, un ajuste de plazos, no una norma nueva. Ahorraron semanas de rediseño.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Un comprador pide cumplir «la norma nueva»",
+      "at": "fábrica",
+      "cueFrac": 0.029
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Calidad pidió el documento y la fecha",
+      "at": "documento",
+      "cueFrac": 0.324
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Era el acuerdo 2025: ajuste de plazos, no norma nueva",
+      "at": "ajuste",
+      "cueFrac": 0.676
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: identificar el documento y su fecha.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Identificar el documento y su fecha",
+      "at": "pide",
+      "cueFrac": 0.182
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

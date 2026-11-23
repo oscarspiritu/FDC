@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M05-E20",
+  "curso": "NOM-051",
+  "modulo": "Leyendas de advertencia · Ejemplo",
+  "titulo": "agua saborizada en Cancún"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una embotelladora de Cancún lanzó un agua saborizada sin calorías endulzada con sucralosa.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "CANCÚN · AGUAS",
+    "title": "Sin calorías,\nno sin *leyenda*",
+    "body": "Agua saborizada con sucralosa",
+    "icon": "GlassWater",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La etiqueta llevaba el sello de sodio pero no la leyenda de edulcorantes. Un cliente lo señaló. Corrigieron.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Agua saborizada con sucralosa",
+      "at": "etiqueta",
+      "cueFrac": 0.056
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Llevaba sello de sodio, pero no la leyenda",
+      "at": "sodio",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Corrigieron: leyenda de edulcorantes",
+      "at": "edulcorantes",
+      "cueFrac": 0.667
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: revisar la lista de ingredientes.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Revisar la lista de ingredientes",
+      "at": "pide",
+      "cueFrac": 0.2
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

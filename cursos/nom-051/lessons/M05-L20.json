@@ -1,0 +1,65 @@
+{
+ "meta": {
+  "id": "M05-L20",
+  "curso": "NOM-051",
+  "modulo": "Leyendas de advertencia",
+  "titulo": "Contiene edulcorantes,",
+  "tituloItalic": "no recomendable en niños"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral siete punto uno punto tres exige que, si la lista de ingredientes incluye edulcorantes, la etiqueta lleve la leyenda:",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "LEYENDAS",
+    "title": "Edulcorantes",
+    "body": "Numeral 7.1.3",
+    "icon": "Candy",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Contiene edulcorantes, no recomendable en niños.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "LEYENDA OBLIGATORIA",
+    "title": "CONTIENE EDULCORANTES,\nNO RECOMENDABLE EN *NIÑOS*",
+    "body": "Si la lista de ingredientes incluye edulcorantes",
+    "icon": "OctagonAlert",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Se revisa la lista de ingredientes, no la declaración nutrimental. Si la lista tiene sucralosa, aspartame o similares, la leyenda va. Sar Solutions te enseña a revisar la lista línea por línea.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "CÓMO REVISARLO",
+    "title": "Línea por *línea*",
+    "items": [
+     {
+      "icon": "ListChecks",
+      "text": "Revisa la lista de ingredientes",
+      "sub": "No la declaración nutrimental",
+      "at": "revisa",
+      "cueFrac": 0.031
+     },
+     {
+      "icon": "Search",
+      "text": "Busca edulcorantes",
+      "sub": "Sucralosa, aspartame y similares",
+      "at": "similares",
+      "cueFrac": 0.531
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "meta": {
+  "id": "M07-L26",
+  "curso": "NOM-051",
+  "modulo": "Casos especiales",
+  "titulo": "Productos con otra NOMe",
+  "tituloItalic": "información adicional"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral cuatro punto dos punto ocho trata los productos preenvasados que cuentan con su propia norma oficial mexicana. La regla: si una norma específica no toma como referencia a la NOM cero cincuenta y uno, el producto queda excluido de ésta; si la toma como referencia, aplica en lo que la norma específica remita. Revisa siempre cuál es la norma de tu producto. El numeral cuatro punto cuatro permite información adicional, siempre que no contradiga ni confunda.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "QUÉ DICE",
+    "title": "Dos *reglas*",
+    "items": [
+     {
+      "icon": "FileCheck",
+      "text": "Con NOM propia",
+      "sub": "Contraseña oficial y clave de la NOM",
+      "at": "numeral",
+      "cueFrac": 0.014
+     },
+     {
+      "icon": "Info",
+      "text": "Información adicional",
+      "sub": "No debe contradecir ni confundir",
+      "at": "toma",
+      "cueFrac": 0.541
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Sar Solutions te recomienda hacer una matriz de normas por producto.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "BUENA PRÁCTICA",
+    "title": "Una matriz de normas\npor *producto*",
+    "icon": "Table",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

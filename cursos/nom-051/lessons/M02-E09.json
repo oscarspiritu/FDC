@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M02-E09",
+  "curso": "NOM-051",
+  "modulo": "Información comercial · Ejemplo",
+  "titulo": "retiro de lote de",
+  "tituloItalic": "queso en Chihuahua"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una quesería de Chihuahua tuvo que retirar un lote por una queja.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "CHIHUAHUA · QUESO",
+    "title": "Retiro de lote:\n*trescientas piezas*",
+    "body": "Queja por un lote de queso",
+    "icon": "Barcode",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Como cada pieza traía la clave de lote impresa, retiró solo trescientas piezas. Sin lote, habría retirado toda la producción de la semana.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Queja por un lote de queso",
+      "at": "pieza",
+      "cueFrac": 0.087
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Cada pieza traía su clave de lote",
+      "at": "lote",
+      "cueFrac": 0.304
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Retiró 300 piezas, no la producción de la semana",
+      "at": "lote",
+      "cueFrac": 0.609
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: lote legible y rastreable.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Lote legible y rastreable",
+      "at": "pide",
+      "cueFrac": 0.222
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

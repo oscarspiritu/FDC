@@ -12,7 +12,7 @@ import { AbsoluteFill, interpolate, Sequence, useCurrentFrame } from "remotion";
 import * as Icons from "lucide-react";
 import { C, sans, serif, s } from "./theme";
 import { Headline, InkBackdrop, Kicker, MaskLine, Reveal, Rule, IconBadge, usePop, useIn } from "./ui";
-import { AvatarColumn, Cap, Captions, Cierre, Entrada, LessonMeta, LessonTag, Scene, Soundtrack, Stock, VO } from "./course";
+import { AvatarColumn, Cap, Captions, Cierre, Entrada, LessonMeta, LessonTag, Scene, Soundtrack, Stock, VO, Watermark } from "./course";
 
 /* ───────────────────────── tipos de spec ───────────────────────── */
 
@@ -703,14 +703,15 @@ const BODY: Record<string, React.FC<{ sc: any }>> = {
   doc: SDoc, stats: SStats, fishbone: SFishbone, timeline: STimeline, bands: SBands, avatar: SAvatar,
 };
 
-const SceneView: React.FC<{ sc: any; id: string; i: number }> = ({ sc, id, i }) => {
+const SceneView: React.FC<{ sc: any; id: string; i: number; curso?: string }> = ({ sc, id, i, curso }) => {
   const B = BODY[sc.type];
   const light = sc.theme === "light" && !sc.stock;
   return (
     <AbsoluteFill style={{ background: light ? C.paper : C.ink }}>
       <Bg sc={{ ...sc, __glow: [70, 30, 80, 25, 60][i % 5] }} />
       <B sc={sc} />
-      <LessonTag id={id} dark={light} />
+      <Watermark light={light} />
+      <LessonTag id={id} dark={light} curso={curso} />
     </AbsoluteFill>
   );
 };
@@ -723,7 +724,7 @@ export const LessonVideo: React.FC<{ spec: LessonSpec; tl: Timeline; caps: Cap[]
     <AbsoluteFill style={{ background: C.ink }}>
       <Scene at={tl.intro} wipe={false}><Entrada meta={spec.meta} /></Scene>
       {spec.scenes.map((sc, i) => (
-        <Scene key={i} at={tl.scenes[i]} from={froms[i % froms.length]}><SceneView sc={sc} id={spec.meta.id} i={i} /></Scene>
+        <Scene key={i} at={tl.scenes[i]} from={froms[i % froms.length]}><SceneView sc={sc} id={spec.meta.id} i={i} curso={spec.meta.curso} /></Scene>
       ))}
       <Scene at={tl.outro} wipe={false}><Cierre /></Scene>
       <Captions caps={caps} />

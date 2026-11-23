@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M01-E02",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance · Ejemplo",
+  "titulo": "la cara de la botella",
+  "tituloItalic": "de jugo en Guadalajara"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "En una embotelladora de jugos de Guadalajara, el diseñador puso los sellos en la contraetiqueta, junto al código de barras, porque se veía más limpio.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "GUADALAJARA · JUGOS",
+    "title": "¿Cuál es la\n*cara* del envase?",
+    "body": "Sellos en la contraetiqueta, junto al código de barras",
+    "icon": "GlassWater",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "El área de calidad le preguntó cuál era la superficie principal de exhibición. Era la cara que ve el cliente en el anaquel. Los sellos estaban en el lugar equivocado. Se reimprimieron mil quinientas etiquetas.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Sellos en la contraetiqueta, junto al código de barras",
+      "at": "área",
+      "cueFrac": 0.029
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "No estaban en la superficie principal",
+      "at": "exhibición",
+      "cueFrac": 0.343
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Se reimprimieron mil quinientas etiquetas",
+      "at": "anaquel",
+      "cueFrac": 0.629
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: ubicar la superficie principal de exhibición antes de diseñar.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Ubicar la superficie principal de exhibición antes de diseñar",
+      "at": "pide",
+      "cueFrac": 0.143
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

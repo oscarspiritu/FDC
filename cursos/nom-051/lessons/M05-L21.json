@@ -1,0 +1,72 @@
+{
+ "meta": {
+  "id": "M05-L21",
+  "curso": "NOM-051",
+  "modulo": "Leyendas de advertencia",
+  "titulo": "Contiene cafeína,",
+  "tituloItalic": "evitar en niños"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral siete punto uno punto cuatro establece que, si la lista incluye cafeína añadida, en cualquier cantidad, la etiqueta debe decir:",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "LEYENDAS",
+    "title": "Cafeína",
+    "body": "Numeral 7.1.4",
+    "icon": "Coffee",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Contiene cafeína, evitar en niños.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "LEYENDA OBLIGATORIA",
+    "title": "CONTIENE CAFEÍNA\nEVITAR EN *NIÑOS*",
+    "body": "Si hay cafeína añadida, en cualquier cantidad",
+    "icon": "OctagonAlert",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Según el numeral cuatro punto cinco punto tres punto cuatro punto siete, va en la parte superior derecha de la superficie principal y, si hay sellos, debajo de ellos. En productos de superficie principal de veinte centímetros cuadrados o menos pueden ir sin recuadro, con las condiciones del numeral A punto tres punto dos. Sar Solutions te recomienda revisar la cafeína también en extractos como guaraná.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "UBICACIÓN",
+    "title": "Debajo de los *sellos*",
+    "items": [
+     {
+      "icon": "MoveUpRight",
+      "text": "Parte superior derecha",
+      "sub": "De la superficie principal",
+      "at": "Según",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "ArrowDown",
+      "text": "Debajo de los sellos",
+      "sub": "Numeral 4.5.3.4.7",
+      "at": "sellos",
+      "cueFrac": 0.379
+     },
+     {
+      "icon": "Maximize2",
+      "text": "Superficie de 20 cm² o menos",
+      "sub": "Puede ir sin recuadro",
+      "at": "condiciones",
+      "cueFrac": 0.697
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

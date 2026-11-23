@@ -1,0 +1,58 @@
+{
+ "meta": {
+  "id": "M07-L27",
+  "curso": "NOM-051",
+  "modulo": "Casos especiales",
+  "titulo": "Idioma, presentación",
+  "tituloItalic": "e instrucciones de uso"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La información obligatoria debe ir en español, numeral cuatro punto ocho, sin impedir que se agregue en otros idiomas. El numeral cuatro punto siete trata la presentación de los requisitos obligatorios: visibles, legibles, indelebles y en lugares donde se lean en condiciones normales. Y el cuatro punto tres regula las instrucciones de uso cuando son necesarias, por ejemplo para preparar o conservar el producto.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "QUÉ EXIGE",
+    "title": "Para que se *lea*",
+    "items": [
+     {
+      "icon": "Languages",
+      "text": "Español",
+      "sub": "La información obligatoria",
+      "at": "información",
+      "cueFrac": 0.016
+     },
+     {
+      "icon": "Eye",
+      "text": "Visible, legible e indeleble",
+      "sub": "Caracteres claros y contrastantes",
+      "at": "cuatro",
+      "cueFrac": 0.328
+     },
+     {
+      "icon": "BookOpen",
+      "text": "Instrucciones de uso",
+      "sub": "Cuando sean necesarias",
+      "at": "normales",
+      "cueFrac": 0.656
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Sar Solutions te recomienda revisar la etiqueta con luz de anaquel.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "TIP",
+    "title": "Revisa la etiqueta\ncon luz de *anaquel*",
+    "icon": "Lightbulb",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

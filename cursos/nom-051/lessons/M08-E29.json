@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M08-E29",
+  "curso": "NOM-051",
+  "modulo": "Verificación y conformidad · Ejemplo",
+  "titulo": "el dictamen que pidió",
+  "tituloItalic": "un cliente en Torreón"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una cadena de supermercados de Torreón pidió a una fábrica de lácteos una constancia de cumplimiento.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TORREÓN · LÁCTEOS",
+    "title": "El dictamen que\npidió un *cliente*",
+    "body": "Una cadena pidió constancia de cumplimiento",
+    "icon": "FileBadge",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La fábrica contrató una unidad de verificación acreditada y preparó su expediente. Les entregaron el documento.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Una cadena pidió constancia de cumplimiento",
+      "at": "fábrica",
+      "cueFrac": 0.062
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Contrataron una unidad de verificación acreditada",
+      "at": "verificación",
+      "cueFrac": 0.375
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Entregaron el documento",
+      "at": "expediente",
+      "cueFrac": 0.688
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: la constancia exige cumplir los capítulos cuatro a siete.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "La constancia exige cumplir los capítulos cuatro a siete",
+      "at": "pide",
+      "cueFrac": 0.143
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

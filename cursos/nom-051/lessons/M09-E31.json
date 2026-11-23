@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M09-E31",
+  "curso": "NOM-051",
+  "modulo": "Taller · Ejemplo",
+  "titulo": "revisión de una etiqueta",
+  "tituloItalic": "de totopos en Zacatecas"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una fábrica de totopos de Zacatecas aplicó la lista paso a paso.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "ZACATECAS · TOTOPOS",
+    "title": "Lista antes\nde *imprimir*",
+    "body": "Aplicó la lista paso a paso",
+    "icon": "ClipboardCheck",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Encontró dos errores antes de imprimir: el sello de sodio estaba en un tamaño menor y faltaba el domicilio. Corrigió y ahorró una reimpresión.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Aplicó la lista paso a paso",
+      "at": "Encontró",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Encontró dos errores: sello chico y domicilio faltante",
+      "at": "sodio",
+      "cueFrac": 0.375
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Corrigió y evitó una reimpresión",
+      "at": "faltaba",
+      "cueFrac": 0.667
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: lista antes de imprimir.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Lista antes de imprimir",
+      "at": "pide",
+      "cueFrac": 0.222
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

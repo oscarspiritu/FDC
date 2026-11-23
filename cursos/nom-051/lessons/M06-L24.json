@@ -1,0 +1,64 @@
+{
+ "meta": {
+  "id": "M06-L24",
+  "curso": "NOM-051",
+  "modulo": "Prohibiciones y declaraciones",
+  "titulo": "Declaraciones",
+  "tituloItalic": "condicionales y saludables"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral seis punto dos regula declaraciones de propiedades condicionales y el seis punto tres, declaraciones nutrimentales y saludables.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "DECLARACIONES",
+    "title": "Condicionales y\n*saludables*",
+    "body": "Numerales 6.2 y 6.3",
+    "icon": "HeartPulse",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Condicional significa que solo se permiten si se cumplen condiciones específicas, por ejemplo, un perfil nutrimental. Según el numeral seis punto tres, si el producto lleva sellos o leyendas precautorias, no puede hacer declaraciones saludables ni declaraciones nutrimentales ligadas al sello.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "REGLAS",
+    "title": "Con *condiciones*",
+    "items": [
+     {
+      "icon": "ListChecks",
+      "text": "Condicionales",
+      "sub": "Solo si se cumplen condiciones específicas",
+      "at": "Condicional",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "OctagonAlert",
+      "text": "Con sellos o leyendas",
+      "sub": "Sin declaraciones saludables",
+      "at": "punto",
+      "cueFrac": 0.488
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Sar Solutions te enseña a revisar compatibilidad antes de imprimir.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "ANTES DE IMPRIMIR",
+    "title": "Verifica la\n*compatibilidad*",
+    "icon": "ClipboardCheck",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

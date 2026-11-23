@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M04-E17",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia · Ejemplo",
+  "titulo": "galletas con tres",
+  "tituloItalic": "sellos en Mérida"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Un diseñador de Mérida colocó los sellos de sodio, azúcares y calorías en el orden en que los había calculado.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "MÉRIDA · GALLETAS",
+    "title": "El orden\nde los *sellos*",
+    "body": "Sodio, azúcares y calorías, como los calculó",
+    "icon": "ArrowUpDown",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La revisión interna mostró que el orden obligatorio era calorías, azúcares, sodio. Reordenaron.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Sodio, azúcares y calorías, como los calculó",
+      "at": "revisión",
+      "cueFrac": 0.077
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "El orden obligatorio es calorías, azúcares, sodio",
+      "at": "orden",
+      "cueFrac": 0.462
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Reordenaron los sellos",
+      "at": "calorías",
+      "cueFrac": 0.692
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: respetar el orden de la norma.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Respetar el orden de la norma",
+      "at": "pide",
+      "cueFrac": 0.182
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

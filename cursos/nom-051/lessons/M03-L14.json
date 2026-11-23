@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "id": "M03-L14",
+  "curso": "NOM-051",
+  "modulo": "Información nutrimental",
+  "titulo": "Tolerancias,",
+  "tituloItalic": "cumplimiento y redondeo"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La norma reconoce que el valor real varía.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN NUTRIMENTAL",
+    "title": "Tolerancias y\n*redondeo*",
+    "body": "Numerales 4.5.2.4.14 y 4.5.2.4.16",
+    "icon": "Ruler",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "El numeral cuatro punto cinco punto dos punto cuatro punto catorce habla de tolerancias y cumplimiento, y el cuatro punto cinco punto dos punto cuatro punto dieciséis establece el redondeo con la Tabla cinco.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "QUÉ DICE LA NORMA",
+    "title": "El valor real *varía*",
+    "items": [
+     {
+      "icon": "Percent",
+      "text": "Tolerancias y cumplimiento",
+      "sub": "Numeral 4.5.2.4.14",
+      "at": "numeral",
+      "cueFrac": 0.029
+     },
+     {
+      "icon": "Table",
+      "text": "Redondeo",
+      "sub": "Tabla 5, numeral 4.5.2.4.16",
+      "at": "cuatro",
+      "cueFrac": 0.529
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Redondear no es opcional: se hace según la tabla. Una cifra redondeada a criterio propio puede generar un incumplimiento. Así trabajamos en Sar Solutions.",
+   "visual": {
+    "type": "compare",
+    "theme": "dark",
+    "kicker": "REDONDEO",
+    "title": "¿Cómo *redondeas*?",
+    "cards": [
+     {
+      "label": "Así no",
+      "tone": "warn",
+      "items": [
+       {
+        "text": "A criterio propio",
+        "at": "Redondear",
+        "cueFrac": 0.0
+       },
+       {
+        "text": "«A ojo»",
+        "at": "según",
+        "cueFrac": 0.25
+       }
+      ],
+      "at": "Redondear"
+     },
+     {
+      "label": "Así sí",
+      "tone": "ok",
+      "items": [
+       {
+        "text": "Con la Tabla 5",
+        "at": "criterio",
+        "cueFrac": 0.542
+       },
+       {
+        "text": "Documentado",
+        "at": "incumplimiento",
+        "cueFrac": 0.75
+       }
+      ],
+      "at": "criterio"
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

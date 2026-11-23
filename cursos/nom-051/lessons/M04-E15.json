@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M04-E15",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia · Ejemplo",
+  "titulo": "cereal para niños",
+  "tituloItalic": "en Hermosillo"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Un cereal de caja de una empresa de Hermosillo se vendía como saludable sin sellos.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "HERMOSILLO · CEREAL",
+    "title": "«Saludable» y\nsin *sellos*",
+    "body": "Cereal de caja sin sellos",
+    "icon": "Wheat",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Al revisar la declaración nutrimental, el azúcar libre superaba el perfil. Debía llevar sello. Rediseñaron la caja.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Cereal de caja sin sellos",
+      "at": "revisar",
+      "cueFrac": 0.059
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "El azúcar libre superaba el perfil",
+      "at": "azúcar",
+      "cueFrac": 0.353
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Rediseñaron la caja con su sello",
+      "at": "perfil",
+      "cueFrac": 0.588
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: evaluar el perfil antes de decidir los sellos.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Evaluar el perfil antes de decidir los sellos",
+      "at": "pide",
+      "cueFrac": 0.154
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M01-E01",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance · Ejemplo",
+  "titulo": "tamales de Oaxaca en bolsa"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Doña Leticia vende tamales en un mercado de Oaxaca, calientes y a granel. Ahí la norma no le aplica.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "OAXACA · TAMALES",
+    "title": "Del mercado\nal *anaquel*",
+    "body": "Tamales calientes y a granel en el mercado",
+    "icon": "Store",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Pero su hija empieza a envasarlos al alto vacío en bolsas de dos piezas para venderlos en tiendas de conveniencia de la ciudad. Ya son preenvasados. Leticia pensó que seguía exenta porque es el mismo producto. Un verificador le explicó que lo que cambia no es el tamal, sino que ahora llega envasado al consumidor. Resultado: tuvo que preparar etiqueta con denominación, ingredientes, responsable y, según su producto, información nutrimental.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Tamales calientes y a granel en el mercado",
+      "at": "hija",
+      "cueFrac": 0.029
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Ahora los envasa al alto vacío para tiendas",
+      "at": "preenvasados",
+      "cueFrac": 0.357
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Prepara etiqueta completa porque ya es preenvasado",
+      "at": "tamal",
+      "cueFrac": 0.671
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: revisar siempre si el producto está preenvasado y no excluido.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Revisar siempre si el producto está preenvasado y no excluido",
+      "at": "pide",
+      "cueFrac": 0.133
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

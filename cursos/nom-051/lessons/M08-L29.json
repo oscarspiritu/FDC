@@ -1,0 +1,83 @@
+{
+ "meta": {
+  "id": "M08-L29",
+  "curso": "NOM-051",
+  "modulo": "Verificación y conformidad",
+  "titulo": "Constancia o dictamen",
+  "tituloItalic": "de cumplimiento"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La NOM cero cincuenta y uno no es certificable. La evaluación de la conformidad es voluntaria y la hacen personas acreditadas y aprobadas conforme a la Ley Federal sobre Metrología y Normalización. El numeral nueve punto cinco habla de la constancia o dictamen de cumplimiento de información comercial. La Unidad de Verificación debe constatar de forma ocular la información comercial de los capítulos cuatro, cinco, seis y siete.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE DICE LA NORMA",
+    "title": "No es *certificable*",
+    "items": [
+     {
+      "icon": "Ban",
+      "text": "No es certificable",
+      "sub": "La evaluación es voluntaria",
+      "at": "NOM-051",
+      "cueFrac": 0.016
+     },
+     {
+      "icon": "Building",
+      "text": "Unidad de Verificación",
+      "sub": "Acreditada y aprobada",
+      "at": "Federal",
+      "cueFrac": 0.359
+     },
+     {
+      "icon": "FileSearch",
+      "text": "Constatación ocular",
+      "sub": "Capítulos 4, 5, 6 y 7",
+      "at": "información",
+      "cueFrac": 0.656
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Para el dictamen se hace muestreo, y para la constancia, constatación ocular. Solo se emite si se cumplen los capítulos cuatro, cinco, seis y siete. Sar Solutions te enseña a prepararte para ese proceso.",
+   "visual": {
+    "type": "compare",
+    "theme": "light",
+    "kicker": "QUÉ SE EMITE",
+    "title": "Constancia · Dictamen",
+    "cards": [
+     {
+      "label": "Constancia",
+      "tone": "ok",
+      "items": [
+       {
+        "text": "Constatación ocular",
+        "at": "dictamen",
+        "cueFrac": 0.059
+       }
+      ],
+      "at": "dictamen"
+     },
+     {
+      "label": "Dictamen",
+      "tone": "blue",
+      "items": [
+       {
+        "text": "Con muestreo",
+        "at": "cumplen",
+        "cueFrac": 0.5
+       }
+      ],
+      "at": "cumplen"
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

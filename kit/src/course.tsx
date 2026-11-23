@@ -12,7 +12,7 @@ import { Headline, InkBackdrop, Kicker, MaskLine, Reveal, Rule, useIn, WipeIn } 
 
 export type Cap = { text: string; s: number; e: number };
 export type VO = { file: string; start: number; dur: number };
-export type LessonMeta = { id: string; modulo: string; titulo: string; tituloItalic?: string };
+export type LessonMeta = { id: string; modulo: string; titulo: string; tituloItalic?: string; curso?: string };
 
 /* ───────────── Logo SAR (capas claras) con el reveal aprobado ───────────── */
 
@@ -63,7 +63,7 @@ export const Entrada: React.FC<{ meta: LessonMeta }> = ({ meta }) => (
       <Rule at={1.1} width={120} color={C.cyan} style={{ height: 2, margin: "40px 0 34px" }} />
       <Reveal at={1.25} y={10}>
         <div style={{ fontFamily: sans, fontWeight: 600, fontSize: 22, letterSpacing: "0.34em", color: C.cyan, textAlign: "center" }}>
-          ISO 9001:2015 · {meta.modulo.toUpperCase()}
+          {(meta.curso ?? "ISO 9001:2015").toUpperCase()} · {meta.modulo.toUpperCase()}
         </div>
       </Reveal>
       <div style={{ height: 26 }} />
@@ -124,7 +124,7 @@ export const Captions: React.FC<{ caps: Cap[] }> = ({ caps }) => {
 
 /* ───────────── Etiqueta de lección (esquina superior derecha) ───────────── */
 
-export const LessonTag: React.FC<{ id: string; dark?: boolean }> = ({ id, dark }) => (
+export const LessonTag: React.FC<{ id: string; dark?: boolean; curso?: string }> = ({ id, dark, curso = "ISO 9001" }) => (
   <div
     style={{
       position: "absolute", right: 64, top: 52, fontFamily: sans, fontWeight: 500, fontSize: 17, letterSpacing: "0.3em",
@@ -132,7 +132,7 @@ export const LessonTag: React.FC<{ id: string; dark?: boolean }> = ({ id, dark }
     }}
   >
     <span style={{ width: 30, height: 1, background: dark ? "rgba(11,42,91,0.4)" : "rgba(255,255,255,0.4)" }} />
-    ISO 9001 · {id.replace("-", " · ")}
+    {curso} · {id.replace("-", " · ")}
   </div>
 );
 
@@ -213,3 +213,24 @@ export const Soundtrack: React.FC<{ vo: VO[]; total: number; music?: string }> =
 };
 
 export { Headline, InkBackdrop, Kicker, MaskLine, Reveal, Rule };
+
+/* ───────────── Marca de agua antipiratería (logo en esquina + patrón tenue) ───────────── */
+
+export const Watermark: React.FC<{ light?: boolean }> = ({ light }) => {
+  const corner = light ? 0.58 : 0.5;
+  const pattern = light ? 0.065 : 0.06;
+  const tone: React.CSSProperties = light ? { filter: "brightness(0.18) saturate(0)" } : {};
+  const cells = Array.from({ length: 5 * 4 });
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <AbsoluteFill style={{ opacity: pattern, transform: "rotate(-18deg) scale(1.35)", display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gridTemplateRows: "repeat(4, 1fr)", alignItems: "center", justifyItems: "center", ...tone }}>
+        {cells.map((_, i) => (
+          <Img key={i} src={staticFile("logo/sar_light.png")} style={{ width: 230 }} />
+        ))}
+      </AbsoluteFill>
+      <div style={{ position: "absolute", left: 56, bottom: 44, opacity: corner, ...tone }}>
+        <Img src={staticFile("logo/sar_light.png")} style={{ width: 120 }} />
+      </div>
+    </AbsoluteFill>
+  );
+};

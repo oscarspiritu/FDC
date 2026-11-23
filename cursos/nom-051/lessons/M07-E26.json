@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M07-E26",
+  "curso": "NOM-051",
+  "modulo": "Casos especiales · Ejemplo",
+  "titulo": "leche en polvo de Jalisco"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una planta de lácteos en Jalisco no sabía si su leche en polvo se etiquetaba con la NOM cero cincuenta y uno o con su norma específica.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "JALISCO · LECHE EN POLVO",
+    "title": "¿Cuál norma\naplica?",
+    "body": "No sabía si usar la NOM-051 o su norma específica",
+    "icon": "Milk",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Su responsable regulatorio revisó si la norma específica la toma como referencia y documentó la conclusión.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "No sabía si usar la NOM-051 o su norma específica",
+      "at": "responsable",
+      "cueFrac": 0.062
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Revisó si esa norma la toma como referencia",
+      "at": "norma",
+      "cueFrac": 0.375
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Documentó la conclusión",
+      "at": "referencia",
+      "cueFrac": 0.688
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: documentar qué norma aplica.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Documentar qué norma aplica",
+      "at": "pide",
+      "cueFrac": 0.222
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

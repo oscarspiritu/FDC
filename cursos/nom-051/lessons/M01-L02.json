@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M01-L02",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance",
+  "titulo": "Definiciones que",
+  "tituloItalic": "debes dominar"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Antes de etiquetar, hay que hablar el mismo idioma que la norma.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "NOM-051 · DEFINICIONES",
+    "title": "Habla el idioma\nde la *norma*",
+    "icon": "BookOpen",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Etiqueta es cualquier marbete, rótulo o inscripción que acompaña al producto. Producto preenvasado es el que se envasa antes de ofrecerse al consumidor. La superficie principal de exhibición es la parte de la etiqueta que el consumidor ve primero; en ella van los sellos. Y el sello, según el numeral tres punto cuarenta y cinco, es un elemento gráfico en forma de octágono negro con un contorno blanco, con las especificaciones del Apéndice A.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "CUATRO TÉRMINOS",
+    "title": "Memoriza *estos*",
+    "items": [
+     {
+      "icon": "Tag",
+      "text": "Etiqueta",
+      "sub": "Rótulo, marbete o inscripción",
+      "at": "Etiqueta",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "Package",
+      "text": "Producto preenvasado",
+      "sub": "Envasado antes de ofrecerse al consumidor",
+      "at": "antes",
+      "cueFrac": 0.243
+     },
+     {
+      "icon": "LayoutTemplate",
+      "text": "Superficie principal de exhibición",
+      "sub": "Lo primero que ve el consumidor",
+      "at": "consumidor",
+      "cueFrac": 0.486
+     },
+     {
+      "icon": "OctagonAlert",
+      "text": "Sello (3.45)",
+      "sub": "Octágono negro con contorno blanco",
+      "at": "cinco",
+      "cueFrac": 0.73
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "El sistema de etiquetado frontal comprende los sellos y las leyendas de los numerales siete punto uno punto tres y siete punto uno punto cuatro. Memoriza estos cuatro términos, porque en los siguientes módulos los vamos a usar todo el tiempo. Así lo trabajamos en Sar Solutions.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "SISTEMA FRONTAL",
+    "title": "Sellos y\n*leyendas*",
+    "body": "Numerales 7.1.3 y 7.1.4",
+    "icon": "OctagonAlert",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

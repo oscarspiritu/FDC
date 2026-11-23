@@ -1,0 +1,72 @@
+{
+ "meta": {
+  "id": "M02-L08",
+  "curso": "NOM-051",
+  "modulo": "Información comercial",
+  "titulo": "Responsable del",
+  "tituloItalic": "producto y domicilio"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La etiqueta debe indicar el nombre, denominación o razón social y el domicilio fiscal del responsable del producto, numeral cuatro punto dos punto cuatro punto uno.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN COMERCIAL",
+    "title": "Responsable y\n*domicilio*",
+    "body": "Numeral 4.2.4.1",
+    "icon": "Building2",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Si el producto es importado, la información en español debe incluir los datos del importador.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "QUÉ DEBE LLEVAR",
+    "title": "Datos *completos*",
+    "items": [
+     {
+      "icon": "Building2",
+      "text": "Nombre o razón social",
+      "sub": "Del responsable del producto",
+      "at": "producto",
+      "cueFrac": 0.133
+     },
+     {
+      "icon": "MapPin",
+      "text": "Domicilio fiscal",
+      "sub": "Del responsable",
+      "at": "información",
+      "cueFrac": 0.4
+     },
+     {
+      "icon": "Ship",
+      "text": "Importados",
+      "sub": "Nombre y domicilio del importador",
+      "at": "incluir",
+      "cueFrac": 0.667
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Esto permite al consumidor y a la autoridad saber a quién reclamar.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "PARA QUÉ",
+    "title": "Saber a quién\n*reclamar*",
+    "body": "El consumidor y la autoridad",
+    "icon": "MessageCircleWarning",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

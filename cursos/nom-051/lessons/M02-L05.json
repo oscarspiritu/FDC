@@ -1,0 +1,102 @@
+{
+ "meta": {
+  "id": "M02-L05",
+  "curso": "NOM-051",
+  "modulo": "Información comercial",
+  "titulo": "Nombre o denominación"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El primer dato obligatorio es el nombre o denominación del producto, numeral cuatro punto dos punto uno. Debe indicar la verdadera naturaleza del producto, en términos específicos, sin confundir al consumidor.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN COMERCIAL",
+    "title": "Nombre o\n*denominación*",
+    "body": "Numeral 4.2.1",
+    "icon": "Type",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "No basta una marca de fantasía: Crunchy es marca; Botana de maíz con sabor a queso es denominación.",
+   "visual": {
+    "type": "compare",
+    "theme": "light",
+    "kicker": "MARCA O DENOMINACIÓN",
+    "title": "¿Cuál es *cuál*?",
+    "cards": [
+     {
+      "label": "Marca",
+      "tone": "warn",
+      "items": [
+       {
+        "text": "«Crunchy»",
+        "at": "basta",
+        "cueFrac": 0.056
+       }
+      ],
+      "at": "basta"
+     },
+     {
+      "label": "Denominación",
+      "tone": "ok",
+      "items": [
+       {
+        "text": "«Botana de maíz con sabor a queso»",
+        "at": "Botana",
+        "cueFrac": 0.5
+       }
+      ],
+      "at": "Botana"
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Según el numeral cuatro punto dos punto uno punto uno, en la modificación de dos mil veinte, la denominación va en negrillas, en la superficie principal de exhibición y paralela a la base del envase, con un tamaño igual o mayor que el del contenido neto. Si el producto es imitación, no se usan palabras como tipo o estilo. En Sar Solutions la regla práctica es esta: si el cliente no puede saber qué es el producto con solo leer la denominación, está mal.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "4.2.1.1",
+    "title": "Cómo se *presenta*",
+    "items": [
+     {
+      "icon": "Bold",
+      "text": "En negrillas",
+      "sub": "Dentro de la superficie principal",
+      "at": "Según",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "AlignHorizontalJustifyStart",
+      "text": "Paralela a la base",
+      "sub": "Del envase",
+      "at": "negrillas",
+      "cueFrac": 0.25
+     },
+     {
+      "icon": "Ruler",
+      "text": "Tamaño",
+      "sub": "Igual o mayor que el contenido neto",
+      "at": "contenido",
+      "cueFrac": 0.524
+     },
+     {
+      "icon": "Ban",
+      "text": "Imitación",
+      "sub": "No se usa «tipo» ni «estilo»",
+      "at": "regla",
+      "cueFrac": 0.75
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

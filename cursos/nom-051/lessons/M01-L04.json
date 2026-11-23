@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "id": "M01-L04",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance",
+  "titulo": "Fases del Transitorio",
+  "tituloItalic": "Segundo y situación vigente"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El Transitorio Segundo de la modificación de dos mil veinte estableció tres fases para calcular y evaluar la información nutrimental complementaria, es decir, los sellos.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "NOM-051 · FASES",
+    "title": "Fases de los\n*sellos*",
+    "body": "Transitorio Segundo de la Modificación 2020",
+    "icon": "CalendarClock",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La primera corrió del primero de octubre de dos mil veinte al treinta de septiembre de dos mil veintitrés. La segunda comenzó el primero de octubre de dos mil veintitrés. El acuerdo de dos mil veinticinco amplió esa segunda fase hasta el treinta y uno de diciembre de dos mil veinticinco. Y la tercera fase, dice el acuerdo, comienza el primero de enero de dos mil veintiséis: a partir de esa fecha se aplica íntegramente el numeral cuatro punto cinco punto tres y la Tabla seis de perfiles nutrimentales.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "FASES",
+    "title": "Tres *fases*",
+    "items": [
+     {
+      "icon": "Flag",
+      "text": "1.ª fase",
+      "sub": "1 oct 2020 al 30 sep 2023",
+      "at": "primera",
+      "cueFrac": 0.011
+     },
+     {
+      "icon": "Flag",
+      "text": "2.ª fase",
+      "sub": "Desde 1 oct 2023; ampliada al 31 dic 2025",
+      "at": "veintitrés",
+      "cueFrac": 0.326
+     },
+     {
+      "icon": "Flag",
+      "text": "3.ª fase",
+      "sub": "Desde 1 ene 2026: 4.5.3 y Tabla 6 completos",
+      "at": "comienza",
+      "cueFrac": 0.652
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "El propio acuerdo explica que el Programa Nacional de Infraestructura de la Calidad dos mil veinticinco prevé una modificación al numeral cuatro punto cinco punto tres. Por eso, antes de imprimir, revisa en el Diario Oficial si ya se publicó otra modificación. Sar Solutions te enseña a ubicarla.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "SITUACIÓN VIGENTE",
+    "title": "Revisa el DOF\nantes de *imprimir*",
+    "body": "El 4.5.3 está en proceso de modificación",
+    "icon": "Search",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

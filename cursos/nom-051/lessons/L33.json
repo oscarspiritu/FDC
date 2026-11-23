@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "id": "L33",
+  "curso": "NOM-051",
+  "modulo": "Cierre",
+  "titulo": "Cierre del curso y",
+  "tituloItalic": "salto a Modo Empresa"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Terminaste el curso de etiquetado de la NOM cero cincuenta y uno de Sar Solutions.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "NOM-051 · CIERRE",
+    "title": "Terminaste\nel *curso*",
+    "body": "Etiquetado de alimentos y bebidas",
+    "icon": "Award",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Ya sabes qué aplica, qué lleva la etiqueta, cuándo van los sellos y las leyendas, y cómo prepararte para una verificación.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "LO QUE YA SABES",
+    "title": "Cuatro *logros*",
+    "items": [
+     {
+      "icon": "PackageCheck",
+      "text": "Qué productos aplican",
+      "at": "sabes",
+      "cueFrac": 0.048
+     },
+     {
+      "icon": "Tag",
+      "text": "Qué lleva la etiqueta",
+      "at": "lleva",
+      "cueFrac": 0.238
+     },
+     {
+      "icon": "OctagonAlert",
+      "text": "Cuándo van sellos y leyendas",
+      "at": "sellos",
+      "cueFrac": 0.524
+     },
+     {
+      "icon": "ShieldCheck",
+      "text": "Cómo prepararte para una verificación",
+      "at": "prepararte",
+      "cueFrac": 0.81
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que armaste en Arvo con la empresa de caso lo puede tener tu empresa en Modo Empresa. Presenta tu quiz final: veinte preguntas, apruebas con setenta, y recibes tu certificado de Sar Solutions.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "SIGUIENTE PASO",
+    "title": "Quiz y *Modo Empresa*",
+    "items": [
+     {
+      "icon": "ClipboardCheck",
+      "text": "Quiz final",
+      "sub": "Veinte preguntas; apruebas con 70",
+      "at": "armaste",
+      "cueFrac": 0.059
+     },
+     {
+      "icon": "Award",
+      "text": "Certificado",
+      "sub": "Lo recibes de SAR Solutions",
+      "at": "puede",
+      "cueFrac": 0.324
+     },
+     {
+      "icon": "Building2",
+      "text": "Modo Empresa",
+      "sub": "Lo que armaste en Arvo, para tu empresa",
+      "at": "veinte",
+      "cueFrac": 0.647
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

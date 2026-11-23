@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M02-E06",
+  "curso": "NOM-051",
+  "modulo": "Información comercial · Ejemplo",
+  "titulo": "la receta cambió y la etiqueta",
+  "tituloItalic": "no, en una panificadora de León"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una panificadora de León cambió la margarina de su pan de caja por una con otro emulsificante, pero la etiqueta decía lo mismo.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "LEÓN · PANIFICADORA",
+    "title": "Receta nueva,\netiqueta *vieja*",
+    "body": "Cambió la margarina del pan de caja",
+    "icon": "Wheat",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Una consumidora alérgica presentó una queja. Calidad corrigió la lista y estableció una regla: cada cambio de receta exige revisión de etiqueta.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Cambió la margarina del pan de caja",
+      "at": "consumidora",
+      "cueFrac": 0.045
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "La etiqueta decía lo mismo; hubo una queja",
+      "at": "corrigió",
+      "cueFrac": 0.318
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Corrigió la lista y revisa etiqueta con cada cambio",
+      "at": "cambio",
+      "cueFrac": 0.682
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: lista actualizada con cada formulación.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Lista actualizada con cada formulación",
+      "at": "pide",
+      "cueFrac": 0.2
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M02-L10",
+  "curso": "NOM-051",
+  "modulo": "Información comercial",
+  "titulo": "Fecha de caducidad",
+  "tituloItalic": "o consumo preferente"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La fecha de caducidad o de consumo preferente se declara con día y mes si la duración máxima es de tres meses, y con mes y año si es mayor, numeral cuatro punto dos punto siete punto uno. No puede alterarse, numeral cuatro punto dos punto siete punto tres.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "CÓMO DECLARARLA",
+    "title": "Según la *duración*",
+    "items": [
+     {
+      "icon": "CalendarDays",
+      "text": "Hasta tres meses",
+      "sub": "Día y mes",
+      "at": "fecha",
+      "cueFrac": 0.02
+     },
+     {
+      "icon": "CalendarRange",
+      "text": "Más de tres meses",
+      "sub": "Mes y año",
+      "at": "duración",
+      "cueFrac": 0.327
+     },
+     {
+      "icon": "ShieldX",
+      "text": "Alteración",
+      "sub": "No puede alterarse",
+      "at": "punto",
+      "cueFrac": 0.653
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Y hay productos exentos, como el vinagre, la sal de calidad alimentaria y el azúcar sólido, numeral cuatro punto dos punto siete punto cuatro. Revisa que la fecha sea legible y que no se borre con el manejo. Así lo trabajamos en Sar Solutions.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "EXENTOS",
+    "title": "Algunos *productos*",
+    "items": [
+     {
+      "icon": "Check",
+      "text": "Vinagre",
+      "at": "productos",
+      "cueFrac": 0.045
+     },
+     {
+      "icon": "Check",
+      "text": "Sal de calidad alimentaria",
+      "at": "azúcar",
+      "cueFrac": 0.318
+     },
+     {
+      "icon": "Check",
+      "text": "Azúcar sólido",
+      "at": "legible",
+      "cueFrac": 0.659
+     }
+    ],
+    "body": "Revisa que sea legible y no se borre",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

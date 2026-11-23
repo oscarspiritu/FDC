@@ -1,0 +1,58 @@
+{
+ "meta": {
+  "id": "M04-L19",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia",
+  "titulo": "Características gráficas",
+  "tituloItalic": "del sello (Apéndice A)"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El Apéndice A define las características del sello: octágono negro, contorno blanco, texto en mayúsculas con tipografía Arial Bold. Cada sello lleva su leyenda dentro. No se deforma ni se cambia el color.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "REGLAS GRÁFICAS",
+    "title": "Sin *adornos*",
+    "items": [
+     {
+      "icon": "OctagonAlert",
+      "text": "Octágono negro",
+      "sub": "Con contorno blanco",
+      "at": "Apéndice",
+      "cueFrac": 0.03
+     },
+     {
+      "icon": "Type",
+      "text": "Texto en mayúsculas",
+      "sub": "Arial Bold",
+      "at": "blanco",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "Ban",
+      "text": "No se deforma",
+      "sub": "Ni se cambia el color",
+      "at": "leyenda",
+      "cueFrac": 0.697
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La norma incluye figuras con las proporciones, y es importante usar los archivos de referencia oficiales. Sar Solutions te recomienda guardar los archivos vectoriales aprobados.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "TIP",
+    "title": "Guarda los archivos\nvectoriales *aprobados*",
+    "icon": "FolderCheck",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

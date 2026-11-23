@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M02-E08",
+  "curso": "NOM-051",
+  "modulo": "Información comercial · Ejemplo",
+  "titulo": "importadora de",
+  "tituloItalic": "pastas en Tijuana"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una importadora de pastas italianas en Tijuana pegaba una etiqueta con su nombre pero sin domicilio.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TIJUANA · PASTAS",
+    "title": "Etiqueta sin\n*domicilio*",
+    "body": "Pastas importadas con solo el nombre de la empresa",
+    "icon": "Ship",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Una tienda departamental rechazó el lote. Agregaron razón social y domicilio fiscal en un sobre-etiqueta antes de distribuir.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Pastas importadas con solo el nombre de la empresa",
+      "at": "tienda",
+      "cueFrac": 0.056
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Una tienda rechazó el lote",
+      "at": "Agregaron",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Sobre-etiqueta con razón social y domicilio fiscal",
+      "at": "sobre-etiqueta",
+      "cueFrac": 0.778
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: datos completos del responsable.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Datos completos del responsable",
+      "at": "pide",
+      "cueFrac": 0.222
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

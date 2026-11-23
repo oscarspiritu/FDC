@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M03-E11",
+  "curso": "NOM-051",
+  "modulo": "Información nutrimental · Ejemplo",
+  "titulo": "una granola de Morelia"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una empresa de granola en Morelia diseñó primero los sellos y dejó la tabla nutrimental para el final.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "MORELIA · GRANOLA",
+    "title": "Tabla primero,\nsellos *después*",
+    "body": "Diseñó los sellos antes de calcular la tabla",
+    "icon": "Wheat",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Al calcular la tabla, resultó que el azúcar subía de lo previsto y cambió sus sellos. Reimprimió. Aprendió a calcular primero.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Diseñó los sellos antes de calcular la tabla",
+      "at": "calcular",
+      "cueFrac": 0.048
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "El azúcar subió más de lo previsto",
+      "at": "azúcar",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Cambió sellos y reimprimió; ahora calcula primero",
+      "at": "sellos",
+      "cueFrac": 0.714
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: tabla primero, sellos después.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Tabla primero, sellos después",
+      "at": "pide",
+      "cueFrac": 0.222
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

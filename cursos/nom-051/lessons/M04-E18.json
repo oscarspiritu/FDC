@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M04-E18",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia · Ejemplo",
+  "titulo": "sello demasiado chico",
+  "tituloItalic": "en una lata de Monterrey"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una lata de bebida de Monterrey llevaba el sello a un centímetro de ancho, cuando su superficie pedía dos punto cinco.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "MONTERREY · LATAS",
+    "title": "Sello demasiado\n*chico*",
+    "body": "Sello de 1 cm de ancho",
+    "icon": "Ruler",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Una revisión lo detectó. Rediseñaron la lata.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Sello de 1 cm de ancho",
+      "at": "revisión",
+      "cueFrac": 0.143
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "La superficie pedía 2.5 cm",
+      "at": "detectó",
+      "cueFrac": 0.429
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Rediseñaron la lata",
+      "at": "Rediseñaron",
+      "cueFrac": 0.571
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: medir primero, luego elegir el tamaño.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Medir primero, luego elegir el tamaño",
+      "at": "pide",
+      "cueFrac": 0.182
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

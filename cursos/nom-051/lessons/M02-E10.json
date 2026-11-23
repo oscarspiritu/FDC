@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M02-E10",
+  "curso": "NOM-051",
+  "modulo": "Información comercial · Ejemplo",
+  "titulo": "yogur recodificado",
+  "tituloItalic": "en Saltillo"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Un distribuidor de Saltillo cambió la fecha de caducidad de unos yogures con una etiqueta nueva encima.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "SALTILLO · YOGUR",
+    "title": "La fecha\n*recodificada*",
+    "body": "Fecha cambiada con una etiqueta encima",
+    "icon": "CalendarX2",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Una verificadora lo detectó por la diferencia de tinta. Se le suspendió la venta y perdió el lote.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Fecha cambiada con una etiqueta encima",
+      "at": "verificadora",
+      "cueFrac": 0.056
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "La verificadora notó la diferencia de tinta",
+      "at": "diferencia",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Suspensión de venta y pérdida del lote",
+      "at": "venta",
+      "cueFrac": 0.722
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: la fecha no puede alterarse.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "La fecha no puede alterarse",
+      "at": "pide",
+      "cueFrac": 0.2
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

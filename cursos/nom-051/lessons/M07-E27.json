@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M07-E27",
+  "curso": "NOM-051",
+  "modulo": "Casos especiales · Ejemplo",
+  "titulo": "etiqueta solo en",
+  "tituloItalic": "inglés, Reynosa"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Un importador de Reynosa recibió una caja con etiqueta solo en inglés.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "REYNOSA · IMPORTACIÓN",
+    "title": "Etiqueta solo\nen *inglés*",
+    "body": "Caja con etiqueta solo en inglés",
+    "icon": "Languages",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La etiqueta en español iba en un adhesivo despegable que se caía. Calidad exigió información fija.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Caja con etiqueta solo en inglés",
+      "at": "etiqueta",
+      "cueFrac": 0.062
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "El adhesivo en español se despegaba",
+      "at": "adhesivo",
+      "cueFrac": 0.438
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Calidad exigió información fija",
+      "at": "caía",
+      "cueFrac": 0.688
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: español, visible y duradero.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Español, visible y duradero",
+      "at": "pide",
+      "cueFrac": 0.222
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

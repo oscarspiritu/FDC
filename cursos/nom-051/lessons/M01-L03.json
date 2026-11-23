@@ -1,0 +1,72 @@
+{
+ "meta": {
+  "id": "M01-L03",
+  "curso": "NOM-051",
+  "modulo": "Marco y alcance",
+  "titulo": "Línea del tiempo: NOM 2010,",
+  "tituloItalic": "Modificación 2020, Acuerdo 2025"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La norma tiene tres momentos clave.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "NOM-051 · HISTORIA",
+    "title": "Tres fechas,\nun *marco*",
+    "icon": "CalendarRange",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "El cinco de abril de dos mil diez se publicó en el Diario Oficial de la Federación la NOM cero cincuenta y uno original. El veintisiete de marzo de dos mil veinte se publicó su modificación, la que trajo los sellos de advertencia y las leyendas. Y en dos mil veinticinco, un acuerdo de la Secretaría de Economía, firmado el treinta de abril y publicado el nueve de mayo, ajustó los plazos de las fases del Transitorio Segundo.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "LÍNEA DEL TIEMPO",
+    "title": "Del 2010 al *2025*",
+    "items": [
+     {
+      "icon": "FileText",
+      "text": "5 de abril de 2010",
+      "sub": "NOM-051 original en el DOF",
+      "at": "cinco",
+      "cueFrac": 0.014
+     },
+     {
+      "icon": "FilePlus2",
+      "text": "27 de marzo de 2020",
+      "sub": "Modificación con sellos y leyendas",
+      "at": "veinte",
+      "cueFrac": 0.365
+     },
+     {
+      "icon": "CalendarCheck",
+      "text": "2025",
+      "sub": "Acuerdo que ajusta plazos de fases",
+      "at": "acuerdo",
+      "cueFrac": 0.649
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Importante: el acuerdo no es una norma nueva, es un ajuste de plazos. El texto de la norma sigue siendo el de dos mil diez con las modificaciones de dos mil veinte. Por eso, cuando alguien te diga la norma cambió, pregunta cuál documento y qué fecha. En Sar Solutions siempre revisamos la fuente en el Diario Oficial.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "RECUERDA",
+    "title": "El acuerdo ajusta *plazos*",
+    "body": "No es una norma nueva",
+    "icon": "Info",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

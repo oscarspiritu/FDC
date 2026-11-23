@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M03-E13",
+  "curso": "NOM-051",
+  "modulo": "Información nutrimental · Ejemplo",
+  "titulo": "galletas con calorías",
+  "tituloItalic": "mal sumadas en Toluca"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una galletera de Toluca imprimió ciento sesenta kilocalorías cuando el cálculo daba ciento ochenta y cinco.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TOLUCA · GALLETAS",
+    "title": "Calorías\nmal *sumadas*",
+    "body": "Etiqueta con ciento sesenta kilocalorías",
+    "icon": "Cookie",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Un laboratorio externo lo detectó. Corrigió el cálculo y el diseño.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Etiqueta con ciento sesenta kilocalorías",
+      "at": "laboratorio",
+      "cueFrac": 0.091
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "El cálculo daba ciento ochenta y cinco",
+      "at": "detectó",
+      "cueFrac": 0.364
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Corrigió el cálculo y el diseño",
+      "at": "cálculo",
+      "cueFrac": 0.636
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: cálculo verificado antes de imprimir.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Cálculo verificado antes de imprimir",
+      "at": "pide",
+      "cueFrac": 0.2
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

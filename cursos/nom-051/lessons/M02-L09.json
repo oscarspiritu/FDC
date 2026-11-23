@@ -1,0 +1,51 @@
+{
+ "meta": {
+  "id": "M02-L09",
+  "curso": "NOM-051",
+  "modulo": "Información comercial",
+  "titulo": "País de origen y lote"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El país de origen se indica con una leyenda como Hecho en, Producto de o Fabricado en, numeral cuatro punto dos punto cinco punto uno. Y el lote es una clave que permite rastrear el producto, precedida de indicaciones como Lote o L, numerales cuatro punto dos punto seis punto uno a cuatro punto dos punto seis punto tres.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "QUÉ DECLARAR",
+    "title": "Dos datos *simples*",
+    "items": [
+     {
+      "icon": "Globe",
+      "text": "País de origen",
+      "sub": "«Hecho en», «Producto de» o «Fabricado en»",
+      "at": "país",
+      "cueFrac": 0.017
+     },
+     {
+      "icon": "Barcode",
+      "text": "Clave de lote",
+      "sub": "Precedida de «Lote», «L» o similar",
+      "at": "clave",
+      "cueFrac": 0.508
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Una buena clave de lote conecta la etiqueta con tu registro de producción. Sar Solutions te recomienda definir una regla de lote y no cambiarla.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "BUENA PRÁCTICA",
+    "title": "Una regla de lote\nque *no cambie*",
+    "body": "Conéctala con tu registro de producción",
+    "icon": "Link2",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

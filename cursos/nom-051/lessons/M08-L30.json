@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "id": "M08-L30",
+  "curso": "NOM-051",
+  "modulo": "Verificación y conformidad",
+  "titulo": "Errores frecuentes y qué",
+  "tituloItalic": "puede pasar si no cumples"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Los errores más comunes son: cambiar la receta sin cambiar la etiqueta, calcular mal la energía, ubicar mal los sellos, olvidar las leyendas y usar personajes dirigidos a niños con sellos. ¿Qué puede pasar?",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LOS MÁS COMUNES",
+    "title": "Cinco *errores*",
+    "items": [
+     {
+      "icon": "FileEdit",
+      "text": "Cambiar la receta sin cambiar la etiqueta",
+      "at": "errores",
+      "cueFrac": 0.029
+     },
+     {
+      "icon": "Calculator",
+      "text": "Calcular mal la energía",
+      "at": "receta",
+      "cueFrac": 0.206
+     },
+     {
+      "icon": "OctagonAlert",
+      "text": "Ubicar mal los sellos",
+      "at": "calcular",
+      "cueFrac": 0.353
+     },
+     {
+      "icon": "MessageSquareWarning",
+      "text": "Olvidar las leyendas",
+      "at": "sellos",
+      "cueFrac": 0.559
+     },
+     {
+      "icon": "Smile",
+      "text": "Personajes dirigidos a niños con sellos",
+      "at": "usar",
+      "cueFrac": 0.706
+     }
+    ],
+    "layout": "full",
+    "cols": 2,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Según la Ley Federal de Protección al Consumidor, la Profeco vigila el cumplimiento de las normas oficiales mexicanas y puede ordenar suspender o corregir la información, artículo treinta y cinco. Cuando se afecta a una colectividad, puede dictar medidas precautorias como inmovilizar o asegurar el producto, suspender su comercialización o retirarlo del mercado, artículo veinticinco Bis. Además, la Cofepris tiene facultades sanitarias sobre alimentos y bebidas, artículo diecisiete Bis de la Ley General de Salud. Sar Solutions te recomienda corregir antes de que llegue una visita.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "QUÉ PUEDE PASAR",
+    "title": "Lo que *dicen* las leyes",
+    "items": [
+     {
+      "icon": "Gavel",
+      "text": "Profeco",
+      "sub": "Puede ordenar corregir o suspender (LFPC art. 35)",
+      "at": "Según",
+      "cueFrac": 0.0
+     },
+     {
+      "icon": "PackageX",
+      "text": "Medidas precautorias",
+      "sub": "Inmovilizar, suspender o retirar (art. 25 Bis)",
+      "at": "cinco",
+      "cueFrac": 0.337
+     },
+     {
+      "icon": "HeartPulse",
+      "text": "Cofepris",
+      "sub": "Facultades sanitarias (LGS art. 17 Bis)",
+      "at": "Además",
+      "cueFrac": 0.651
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

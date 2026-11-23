@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M09-E32",
+  "curso": "NOM-051",
+  "modulo": "Taller · Ejemplo",
+  "titulo": "antes y después en Mérida"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una empresa de bebidas de Mérida mostró a su equipo la etiqueta original y la corregida.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "MÉRIDA · BEBIDAS",
+    "title": "Antes\ny *después*",
+    "body": "Mostró la etiqueta original y la corregida",
+    "icon": "Eye",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "El equipo entendió por qué cada cambio importaba. Desde entonces revisan toda etiqueta nueva con la lista.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Mostró la etiqueta original y la corregida",
+      "at": "equipo",
+      "cueFrac": 0.059
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "El equipo entendió por qué importaba cada cambio",
+      "at": "cambio",
+      "cueFrac": 0.353
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Ahora revisan toda etiqueta nueva con la lista",
+      "at": "revisan",
+      "cueFrac": 0.588
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: proceso repetible.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Proceso repetible",
+      "at": "pide",
+      "cueFrac": 0.286
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "id": "M04-L15",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia",
+  "titulo": "Sistema de",
+  "tituloItalic": "etiquetado frontal"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral cuatro punto cinco punto tres regula la información nutrimental complementaria, y dentro de él, el cuatro punto cinco punto tres punto cuatro establece el sistema de etiquetado frontal.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "SELLOS DE ADVERTENCIA",
+    "title": "Sistema de\netiquetado *frontal*",
+    "body": "Numerales 4.5.3 y 4.5.3.4",
+    "icon": "OctagonAlert",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Este sistema usa sellos: octágonos negros con contorno blanco que advierten cuando un producto tiene exceso de ciertos nutrimentos críticos. Los sellos se aplican a productos que contienen azúcares libres, grasas o sodio añadidos y que superan el perfil nutrimental.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "CÓMO SE DECIDE",
+    "title": "Calcula, decide, *diseña*",
+    "items": [
+     {
+      "icon": "Calculator",
+      "text": "Calcula",
+      "sub": "La declaración nutrimental",
+      "at": "sistema",
+      "cueFrac": 0.025
+     },
+     {
+      "icon": "Scale",
+      "text": "Compara",
+      "sub": "Contra el perfil nutrimental",
+      "at": "producto",
+      "cueFrac": 0.325
+     },
+     {
+      "icon": "OctagonAlert",
+      "text": "Aplica el sello",
+      "sub": "Solo si excede el perfil",
+      "at": "contienen",
+      "cueFrac": 0.675
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "El sistema también incluye leyendas de edulcorantes y cafeína, que veremos en el módulo cinco. Sar Solutions te enseña primero a decidir si el producto lleva sellos, y luego cómo ponerlos.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INCLUYE",
+    "title": "Sellos y\n*leyendas*",
+    "body": "Edulcorantes y cafeína en el módulo 5",
+    "icon": "Layers",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

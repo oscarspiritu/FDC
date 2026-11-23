@@ -1,0 +1,70 @@
+{
+ "meta": {
+  "id": "M07-L25",
+  "curso": "NOM-051",
+  "modulo": "Casos especiales",
+  "titulo": "Envases pequeños"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Cuando el envase es chico, la norma da reglas especiales.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "CASOS ESPECIALES",
+    "title": "Envases\n*pequeños*",
+    "body": "Numerales 4.5.3.4.2 y A.3.2",
+    "icon": "Minimize2",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Si la superficie principal de exhibición es de cuarenta centímetros cuadrados o menos, el producto incluye un solo sello, con el número de nutrimentos que cumplen el perfil, numeral cuatro punto cinco punto tres punto cuatro punto dos. En envases de cinco centímetros cuadrados o menos, aplica además el numeral A punto cuatro punto cinco, y el sello ocupa al menos el quince por ciento de la superficie. Las leyendas, cuando la superficie es de veinte centímetros cuadrados o menos, pueden ir sin recuadro.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "REGLAS",
+    "title": "Según la *superficie*",
+    "items": [
+     {
+      "icon": "Maximize2",
+      "text": "40 cm² o menos",
+      "sub": "Un solo sello con el número de nutrimentos",
+      "at": "superficie",
+      "cueFrac": 0.024
+     },
+     {
+      "icon": "Minimize2",
+      "text": "5 cm² o menos",
+      "sub": "Sello de al menos 15 % de la superficie",
+      "at": "numeral",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "Type",
+      "text": "Leyendas, 20 cm² o menos",
+      "sub": "Pueden ir sin recuadro",
+      "at": "sello",
+      "cueFrac": 0.679
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Sar Solutions te recomienda medir antes de diseñar.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TIP",
+    "title": "Mide *antes*\nde diseñar",
+    "icon": "Ruler",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

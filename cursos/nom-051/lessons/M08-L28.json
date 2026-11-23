@@ -1,0 +1,58 @@
+{
+ "meta": {
+  "id": "M08-L28",
+  "curso": "NOM-051",
+  "modulo": "Verificación y conformidad",
+  "titulo": "Verificación y vigilancia"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El capítulo ocho establece que la verificación y vigilancia de la NOM cero cincuenta y uno las realizan la Procuraduría Federal del Consumidor, Profeco, y la Comisión Federal para la Protección contra Riesgos Sanitarios, Cofepris, además de las dependencias competentes, según sus atribuciones, conforme a la Ley Federal de Protección al Consumidor, la Ley General de Salud y la Ley Federal sobre Metrología y Normalización.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "AUTORIDADES",
+    "title": "Dos *instituciones*",
+    "items": [
+     {
+      "icon": "Scale",
+      "text": "Profeco",
+      "sub": "Procuraduría Federal del Consumidor",
+      "at": "capítulo",
+      "cueFrac": 0.016
+     },
+     {
+      "icon": "HeartPulse",
+      "text": "Cofepris",
+      "sub": "Protección contra Riesgos Sanitarios",
+      "at": "Comisión",
+      "cueFrac": 0.361
+     },
+     {
+      "icon": "Gavel",
+      "text": "Con base en",
+      "sub": "LFPC, Ley General de Salud y LFMN",
+      "at": "Federal",
+      "cueFrac": 0.705
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "En la práctica, pueden revisar tu etiqueta en el punto de venta o en tu fábrica. Sar Solutions te recomienda tener tu expediente listo.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "EN LA PRÁCTICA",
+    "title": "Pueden revisar tu etiqueta\nen tienda o en *fábrica*",
+    "body": "Ten tu expediente listo",
+    "icon": "FolderCheck",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

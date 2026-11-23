@@ -1,0 +1,58 @@
+{
+ "meta": {
+  "id": "M06-L23",
+  "curso": "NOM-051",
+  "modulo": "Prohibiciones y declaraciones",
+  "titulo": "Declaraciones de",
+  "tituloItalic": "propiedades nutrimentales"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una declaración de propiedades es cualquier mensaje que afirma que el producto tiene una cualidad nutrimental o saludable, como alto en fibra o bajo en grasa. Están reguladas en el numeral cuatro punto seis y en el capítulo seis. Solo puedes usarlas si el producto cumple las condiciones del capítulo y respaldas la afirmación.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "QUÉ ES",
+    "title": "Un mensaje *sobre el producto*",
+    "items": [
+     {
+      "icon": "MessageSquareQuote",
+      "text": "«Alto en fibra»",
+      "sub": "Afirma una cualidad nutrimental",
+      "at": "declaración",
+      "cueFrac": 0.019
+     },
+     {
+      "icon": "MessageSquareQuote",
+      "text": "«Bajo en grasa»",
+      "sub": "Debe cumplir las condiciones del capítulo",
+      "at": "alto",
+      "cueFrac": 0.352
+     },
+     {
+      "icon": "FileCheck",
+      "text": "Respaldo",
+      "sub": "Archiva la evidencia",
+      "at": "capítulo",
+      "cueFrac": 0.685
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Sar Solutions te recomienda archivar la evidencia de cada declaración.",
+   "visual": {
+    "type": "hero",
+    "theme": "light",
+    "kicker": "RECUERDA",
+    "title": "No afirmes lo que\nno puedes *sustentar*",
+    "icon": "ShieldCheck",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

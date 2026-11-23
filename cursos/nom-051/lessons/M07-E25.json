@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M07-E25",
+  "curso": "NOM-051",
+  "modulo": "Casos especiales · Ejemplo",
+  "titulo": "chiclosos en",
+  "tituloItalic": "bolsita, Toluca"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una dulcería de Toluca vende chiclosos en envolturas chicas.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "TOLUCA · DULCES",
+    "title": "Un solo *sello*\nen 35 cm²",
+    "body": "Chiclosos en envoltura de 35 cm²",
+    "icon": "Candy",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Su superficie era de treinta y cinco centímetros cuadrados, así que correspondía un solo sello con el número de nutrimentos en exceso. El diseñador iba a poner cuatro sellos. Corrigieron.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Chiclosos en envoltura de 35 cm²",
+      "at": "superficie",
+      "cueFrac": 0.033
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "El diseñador iba a poner cuatro sellos",
+      "at": "correspondía",
+      "cueFrac": 0.367
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Un solo sello con el número de nutrimentos",
+      "at": "exceso",
+      "cueFrac": 0.7
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: usar la regla de envases pequeños.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Usar la regla de envases pequeños",
+      "at": "pide",
+      "cueFrac": 0.182
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

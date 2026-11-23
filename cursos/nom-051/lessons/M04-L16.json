@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "id": "M04-L16",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia",
+  "titulo": "Perfiles nutrimentales"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "La Tabla seis fija los umbrales.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "SELLOS DE ADVERTENCIA",
+    "title": "Perfiles\n*nutrimentales*",
+    "body": "Tabla 6",
+    "icon": "Table",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Para productos sólidos, por cada cien gramos, el sello de energía aplica cuando hay doscientas setenta y cinco kilocalorías o más. El de azúcares, cuando el diez por ciento o más de la energía proviene de azúcares libres. El de grasas saturadas, cuando el diez por ciento o más de la energía proviene de grasas saturadas. El de grasas trans, cuando el uno por ciento o más.",
+   "visual": {
+    "type": "stats",
+    "theme": "light",
+    "kicker": "SÓLIDOS · POR 100 G",
+    "title": "Umbrales *sólidos*",
+    "items": [
+     {
+      "value": "275 kcal",
+      "label": "Energía",
+      "at": "productos",
+      "cueFrac": 0.015
+     },
+     {
+      "value": "10 %",
+      "label": "Azúcares libres",
+      "at": "cinco",
+      "cueFrac": 0.254
+     },
+     {
+      "value": "10 %",
+      "label": "Grasas saturadas",
+      "at": "energía",
+      "cueFrac": 0.493
+     },
+     {
+      "value": "1 %",
+      "label": "Grasas trans",
+      "at": "energía",
+      "cueFrac": 0.761
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Y el de sodio, cuando hay un miligramo o más por kilocaloría, o trescientos miligramos o más; en bebidas sin calorías, cuarenta y cinco miligramos o más. Para líquidos, por cada cien mililitros, setenta kilocalorías totales o más, u ocho kilocalorías de azúcares libres. Verifica siempre la fase vigente. Sar Solutions te da una hoja de cálculo para evaluarlo.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "SODIO Y LÍQUIDOS",
+    "title": "Más *umbrales*",
+    "items": [
+     {
+      "icon": "Salt",
+      "text": "Sodio (sólidos)",
+      "sub": "1 mg por kcal o 300 mg",
+      "at": "sodio",
+      "cueFrac": 0.051
+     },
+     {
+      "icon": "GlassWater",
+      "text": "Bebidas sin calorías",
+      "sub": "45 mg de sodio",
+      "at": "calorías",
+      "cueFrac": 0.339
+     },
+     {
+      "icon": "Droplets",
+      "text": "Líquidos por 100 mL",
+      "sub": "70 kcal o 8 kcal de azúcares libres",
+      "at": "ocho",
+      "cueFrac": 0.661
+     }
+    ],
+    "body": "Verifica siempre la fase vigente",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

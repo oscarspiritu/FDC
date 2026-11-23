@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M02-E07",
+  "curso": "NOM-051",
+  "modulo": "Información comercial · Ejemplo",
+  "titulo": "atún que no dice la",
+  "tituloItalic": "masa drenada, Mazatlán"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una enlatadora de Mazatlán declaró ciento cuarenta gramos sin aclarar que incluía el agua.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "MAZATLÁN · ATÚN",
+    "title": "¿Cuánto pesa\nel *atún*?",
+    "body": "Lata con «ciento cuarenta gramos»",
+    "icon": "Fish",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "El producto drenado pesaba menos. Profeco lo detectó en una revisión en tiendas. Corrigieron la etiqueta con masa drenada.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Lata con «ciento cuarenta gramos»",
+      "at": "producto",
+      "cueFrac": 0.053
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Incluía el agua; Profeco lo detectó",
+      "at": "detectó",
+      "cueFrac": 0.368
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Corrigieron con masa drenada",
+      "at": "tiendas",
+      "cueFrac": 0.632
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: declarar contenido neto y, si aplica, masa drenada.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Declarar contenido neto y, si aplica, masa drenada",
+      "at": "pide",
+      "cueFrac": 0.154
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

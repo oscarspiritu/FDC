@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "id": "M06-L22",
+  "curso": "NOM-051",
+  "modulo": "Prohibiciones y declaraciones",
+  "titulo": "Personajes, dibujos y",
+  "tituloItalic": "celebridades dirigidos a niños"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral cuatro punto uno punto cinco aplica a productos con uno o más sellos de advertencia o con la leyenda de edulcorantes.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "PROHIBICIONES",
+    "title": "Personajes, dibujos\ny *celebridades*",
+    "body": "Numeral 4.1.5",
+    "icon": "Ban",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Estos productos no deben incluir en la etiqueta personajes infantiles, animaciones, dibujos animados, celebridades, deportistas o mascotas, ni elementos interactivos, como juegos visual-espaciales o descargas digitales, que, dirigidos a niños, inciten, promuevan o fomenten el consumo, la compra o la elección de productos con exceso de nutrimentos críticos o con edulcorantes.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "CON SELLOS O LEYENDA DE EDULCORANTES",
+    "title": "No pueden *incluir*",
+    "items": [
+     {
+      "icon": "Smile",
+      "text": "Personajes infantiles y mascotas",
+      "at": "productos",
+      "cueFrac": 0.02
+     },
+     {
+      "icon": "Clapperboard",
+      "text": "Animaciones y dibujos animados",
+      "at": "animados",
+      "cueFrac": 0.235
+     },
+     {
+      "icon": "Star",
+      "text": "Celebridades y deportistas",
+      "at": "descargas",
+      "cueFrac": 0.471
+     },
+     {
+      "icon": "Gamepad2",
+      "text": "Elementos interactivos",
+      "sub": "Juegos o descargas digitales",
+      "at": "compra",
+      "cueFrac": 0.725
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Tampoco se pueden hacer referencias a elementos ajenos con esas mismas finalidades. Sar Solutions te recomienda revisar el arte completo, incluyendo códigos QR y pestañas.",
+   "visual": {
+    "type": "compare",
+    "theme": "dark",
+    "kicker": "REVISA EL ARTE",
+    "title": "¿Con sellos?",
+    "cards": [
+     {
+      "label": "Así no",
+      "tone": "warn",
+      "items": [
+       {
+        "text": "Mascota sonriente junto a un sello",
+        "at": "Tampoco",
+        "cueFrac": 0.0
+       }
+      ],
+      "at": "Tampoco"
+     },
+     {
+      "label": "Así sí",
+      "tone": "ok",
+      "items": [
+       {
+        "text": "Sin sellos, o arte sin personajes dirigidos a niños",
+        "at": "Solutions",
+        "cueFrac": 0.52
+       }
+      ],
+      "at": "Solutions"
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

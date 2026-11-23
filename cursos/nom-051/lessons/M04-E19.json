@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M04-E19",
+  "curso": "NOM-051",
+  "modulo": "Sellos de advertencia · Ejemplo",
+  "titulo": "sello gris en una barra",
+  "tituloItalic": "de cereal de Puebla"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una empresa de barras de cereal de Puebla usó un gris oscuro para que el sello combinara con la marca.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "PUEBLA · BARRAS",
+    "title": "El sello\n*gris*",
+    "body": "Gris oscuro para que combinara con la marca",
+    "icon": "Palette",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "La revisión le pidió negro. Cambió la plancha.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Gris oscuro para que combinara con la marca",
+      "at": "revisión",
+      "cueFrac": 0.125
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "La revisión pidió negro",
+      "at": "pidió",
+      "cueFrac": 0.375
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Cambió la plancha",
+      "at": "negro",
+      "cueFrac": 0.5
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: respetar el apéndice sin adornos.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Respetar el apéndice sin adornos",
+      "at": "pide",
+      "cueFrac": 0.2
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

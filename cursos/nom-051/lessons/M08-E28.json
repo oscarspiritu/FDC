@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M08-E28",
+  "curso": "NOM-051",
+  "modulo": "Verificación y conformidad · Ejemplo",
+  "titulo": "visita de verificación",
+  "tituloItalic": "en Culiacán"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una empacadora de Culiacán recibió una visita de verificación.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "CULIACÁN · EMPACADORA",
+    "title": "Visita de\n*verificación*",
+    "body": "Llegó una visita de verificación",
+    "icon": "ClipboardCheck",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Su responsable mostró en diez minutos el expediente de etiqueta: cálculo, aprobación y evidencia. La visita siguió sin contratiempos.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Llegó una visita de verificación",
+      "at": "responsable",
+      "cueFrac": 0.053
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Mostró el expediente en diez minutos",
+      "at": "expediente",
+      "cueFrac": 0.368
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "La visita siguió sin contratiempos",
+      "at": "evidencia",
+      "cueFrac": 0.684
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: expediente listo.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Expediente listo",
+      "at": "pide",
+      "cueFrac": 0.286
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

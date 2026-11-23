@@ -1,0 +1,64 @@
+{
+ "meta": {
+  "id": "M03-L11",
+  "curso": "NOM-051",
+  "modulo": "Información nutrimental",
+  "titulo": "Etiquetado nutrimental",
+  "tituloItalic": "y sus componentes"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral cuatro punto cinco trata el etiquetado nutrimental.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN NUTRIMENTAL",
+    "title": "Etiquetado\n*nutrimental*",
+    "body": "Numerales 4.5 y 4.5.1",
+    "icon": "Apple",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Tiene dos partes: la declaración nutrimental, que es obligatoria, y la información nutrimental complementaria, que incluye los sellos. En el numeral cuatro punto cinco punto uno se establecen los componentes que forman parte de ese etiquetado.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "DOS PARTES",
+    "title": "Ficha y *aviso*",
+    "items": [
+     {
+      "icon": "ClipboardList",
+      "text": "Declaración nutrimental",
+      "sub": "Obligatoria: la ficha técnica",
+      "at": "partes",
+      "cueFrac": 0.056
+     },
+     {
+      "icon": "OctagonAlert",
+      "text": "Información complementaria",
+      "sub": "Los sellos: el aviso de advertencia",
+      "at": "numeral",
+      "cueFrac": 0.556
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Piensa en la tabla nutrimental como la ficha técnica del producto y en los sellos como el aviso de advertencia. Sar Solutions te enseña a prepararlas en ese orden.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "ORDEN DE TRABAJO",
+    "title": "Primero la tabla,\nluego los *sellos*",
+    "icon": "ListChecks",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

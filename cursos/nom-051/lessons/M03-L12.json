@@ -1,0 +1,70 @@
+{
+ "meta": {
+  "id": "M03-L12",
+  "curso": "NOM-051",
+  "modulo": "Información nutrimental",
+  "titulo": "Declaración nutrimental"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral cuatro punto cinco punto dos regula la declaración nutrimental: qué nutrimentos se declaran y por qué base, por ejemplo por cien gramos, por cien mililitros o por porción.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN NUTRIMENTAL",
+    "title": "Declaración\n*nutrimental*",
+    "body": "Numeral 4.5.2",
+    "icon": "ClipboardList",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Se apoya en análisis del producto o en cálculo a partir de la receta.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "QUÉ SE DECLARA",
+    "title": "Con *respaldo*",
+    "items": [
+     {
+      "icon": "FlaskConical",
+      "text": "Análisis del producto",
+      "sub": "O cálculo desde la receta",
+      "at": "apoya",
+      "cueFrac": 0.071
+     },
+     {
+      "icon": "Scale",
+      "text": "Base de declaración",
+      "sub": "Por 100 g, 100 mL o por porción",
+      "at": "producto",
+      "cueFrac": 0.357
+     },
+     {
+      "icon": "FileCheck",
+      "text": "Evidencia",
+      "sub": "Reporte de laboratorio o memoria de cálculo",
+      "at": "cálculo",
+      "cueFrac": 0.571
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Debes poder respaldar cada cifra con un documento: un reporte de laboratorio o una memoria de cálculo.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "RECUERDA",
+    "title": "Cada cifra,\nun *documento*",
+    "icon": "FileCheck",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "meta": {
+  "id": "M09-L32",
+  "curso": "NOM-051",
+  "modulo": "Taller",
+  "titulo": "Caso integrador: corregir",
+  "tituloItalic": "una etiqueta completa"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Te presento un caso: una bebida láctea con edulcorante y cafeína, de una empresa ficticia de Yucatán.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "CASO INTEGRADOR",
+    "title": "Corrige una\n*etiqueta* completa",
+    "body": "Bebida láctea con edulcorante y cafeína · empresa ficticia de Yucatán",
+    "icon": "FlaskConical",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Tiene sellos en el orden incorrecto, falta la leyenda de cafeína, lleva una mascota y la fecha se imprimió con tinta que se borra.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "LOS ERRORES",
+    "title": "Encuéntralos *tú*",
+    "items": [
+     {
+      "icon": "ArrowUpDown",
+      "text": "Sellos en orden incorrecto",
+      "at": "sellos",
+      "cueFrac": 0.042
+     },
+     {
+      "icon": "Coffee",
+      "text": "Falta la leyenda de cafeína",
+      "at": "falta",
+      "cueFrac": 0.25
+     },
+     {
+      "icon": "Smile",
+      "text": "Lleva una mascota",
+      "at": "mascota",
+      "cueFrac": 0.542
+     },
+     {
+      "icon": "CalendarX2",
+      "text": "Fecha con tinta que se borra",
+      "at": "imprimió",
+      "cueFrac": 0.75
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Con la lista del video anterior, localiza cada error. Pausa el video y hazlo. Luego comparamos. Sar Solutions te enseña que corregir una etiqueta es un proceso, no un juicio.",
+   "visual": {
+    "type": "compare",
+    "theme": "dark",
+    "kicker": "RESOLUCIÓN",
+    "title": "Cómo *queda*",
+    "cards": [
+     {
+      "label": "Corrección",
+      "tone": "ok",
+      "items": [
+       {
+        "text": "Orden: calorías, azúcares, sodio",
+        "at": "lista",
+        "cueFrac": 0.067
+       },
+       {
+        "text": "Leyendas debajo de los sellos",
+        "at": "error",
+        "cueFrac": 0.267
+       },
+       {
+        "text": "Sin mascota (4.1.5)",
+        "at": "Luego",
+        "cueFrac": 0.467
+       },
+       {
+        "text": "Fecha indeleble (4.2.7.3)",
+        "at": "corregir",
+        "cueFrac": 0.7
+       }
+      ],
+      "at": "lista"
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

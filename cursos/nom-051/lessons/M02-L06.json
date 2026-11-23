@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "M02-L06",
+  "curso": "NOM-051",
+  "modulo": "Información comercial",
+  "titulo": "Lista de ingredientes"
+ },
+ "voz": "H3",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "El numeral cuatro punto dos punto dos pide la lista de ingredientes.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "INFORMACIÓN COMERCIAL",
+    "title": "Lista de\n*ingredientes*",
+    "body": "Numeral 4.2.2",
+    "icon": "ListOrdered",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "Se encabeza con Ingredientes: y se ordena en orden cuantitativo decreciente. Desde la modificación, los azúcares añadidos se agrupan bajo azúcares añadidos con sus denominaciones específicas, y los alérgenos se declaran al final de la lista, con la leyenda Puede contener en negrillas cuando hay contaminación cruzada. Si un ingrediente compuesto representa menos del cinco por ciento, no hace falta listar sus partes, salvo los aditivos con función tecnológica o asociados a alergias. Y solo un producto de un único ingrediente y sin aditivos puede omitir la lista.",
+   "visual": {
+    "type": "rows",
+    "theme": "light",
+    "kicker": "CÓMO SE ARMA",
+    "title": "Reglas *clave*",
+    "items": [
+     {
+      "icon": "ListOrdered",
+      "text": "«Ingredientes:»",
+      "sub": "En orden cuantitativo decreciente",
+      "at": "encabeza",
+      "cueFrac": 0.011
+     },
+     {
+      "icon": "Candy",
+      "text": "Azúcares añadidos",
+      "sub": "Se agrupan con sus denominaciones",
+      "at": "denominaciones",
+      "cueFrac": 0.273
+     },
+     {
+      "icon": "Wheat",
+      "text": "Alérgenos",
+      "sub": "Al final; «Puede contener» en negrillas",
+      "at": "contaminación",
+      "cueFrac": 0.511
+     },
+     {
+      "icon": "Percent",
+      "text": "Compuestos menores a 5 %",
+      "sub": "Sin partes, salvo aditivos tecnológicos o alergénicos",
+      "at": "función",
+      "cueFrac": 0.761
+     }
+    ],
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Revisa cada materia prima de la receta contra la etiqueta. Y recuerda que de la lista dependen las leyendas: si hay edulcorantes o cafeína añadida, la etiqueta debe decirlo, y eso lo veremos en el módulo cinco. Sar Solutions te acompaña en cada paso.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "RECUERDA",
+    "title": "De la lista dependen\nlas *leyendas*",
+    "body": "Edulcorantes y cafeína añadida",
+    "icon": "Link",
+    "titleAt": 0.15
+   }
+  }
+ ]
+}

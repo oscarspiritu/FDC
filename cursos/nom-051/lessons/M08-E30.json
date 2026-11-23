@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "id": "M08-E30",
+  "curso": "NOM-051",
+  "modulo": "Verificación y conformidad · Ejemplo",
+  "titulo": "el cambio de receta en una",
+  "tituloItalic": "dulcería de San Luis Potosí"
+ },
+ "voz": "F2",
+ "scenes": [
+  {
+   "n": 1,
+   "texto": "Una dulcería de San Luis Potosí cambió jarabe por edulcorante en una paleta y reutilizó las etiquetas.",
+   "visual": {
+    "type": "hero",
+    "theme": "dark",
+    "kicker": "SAN LUIS POTOSÍ · DULCES",
+    "title": "Cambio de receta,\nmismas *etiquetas*",
+    "body": "Cambió jarabe por edulcorante en una paleta",
+    "icon": "Candy",
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 2,
+   "texto": "El cliente notó la diferencia en la lista de ingredientes y reportó. Retiraron el producto, corrigieron y establecieron revisión por cambio.",
+   "visual": {
+    "type": "steps",
+    "theme": "light",
+    "kicker": "EJEMPLO",
+    "title": "Qué *pasó*",
+    "items": [
+     {
+      "icon": "Eye",
+      "text": "Situación",
+      "sub": "Cambió jarabe por edulcorante en una paleta",
+      "at": "cliente",
+      "cueFrac": 0.048
+     },
+     {
+      "icon": "AlertTriangle",
+      "text": "Qué pasó",
+      "sub": "Reutilizó las etiquetas; un cliente lo notó",
+      "at": "lista",
+      "cueFrac": 0.333
+     },
+     {
+      "icon": "CheckCircle2",
+      "text": "Cómo se resolvió",
+      "sub": "Retiró, corrigió y revisa etiqueta por cambio",
+      "at": "producto",
+      "cueFrac": 0.667
+     }
+    ],
+    "vertical": true,
+    "titleAt": 0.15
+   }
+  },
+  {
+   "n": 3,
+   "texto": "Lo que pide el punto: toda receta nueva exige etiqueta revisada.",
+   "visual": {
+    "type": "rows",
+    "theme": "dark",
+    "kicker": "LO QUE PIDE EL PUNTO",
+    "title": "La *lección*",
+    "items": [
+     {
+      "icon": "Target",
+      "text": "Toda receta nueva exige etiqueta revisada",
+      "at": "pide",
+      "cueFrac": 0.182
+     }
+    ],
+    "titleAt": 0.15
+   }
+  }
+ ]
+}
