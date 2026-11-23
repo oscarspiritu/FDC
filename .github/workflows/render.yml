@@ -76,7 +76,7 @@ jobs:
         with:
           name: ${{ inputs.curso }}-${{ matrix.leccion }}
           path: out/${{ inputs.curso }}/${{ matrix.leccion }}.*
-          retention-days: 14
+          retention-days: 2
           if-no-files-found: error
 
   enviar_al_vps:
