@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:06,400
+Un cereal de caja de una empresa de
+
+2
+00:00:06,400 --> 00:00:09,670
+hermosillo se vendía como saludables sin sellos.
+
+3
+00:00:11,108 --> 00:00:14,328
+Al revisar la declaración nutrimental, el azúcar libre
+
+4
+00:00:14,328 --> 00:00:15,538
+superaba el perfil.
+
+5
+00:00:15,728 --> 00:00:17,018
+Debía llevar sello.
+
+6
+00:00:17,288 --> 00:00:18,598
+Rediseñaron la caja.
+
+7
+00:00:19,848 --> 00:00:22,528
+Lo que pide el punto, evalúar el perfil
+
+8
+00:00:22,528 --> 00:00:24,478
+antes de decidir los sellos.
+

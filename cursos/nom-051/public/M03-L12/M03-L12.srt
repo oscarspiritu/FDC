@@ -1,0 +1,40 @@
+1
+00:00:04,200 --> 00:00:08,220
+El numeral 4 .5 .2 regula la declaración
+
+2
+00:00:08,220 --> 00:00:09,010
+nutrimental.
+
+3
+00:00:09,480 --> 00:00:11,930
+¿Qué nutrimento se declaran y por qué base?
+
+4
+00:00:12,260 --> 00:00:14,980
+Por ejemplo, por 100 gramos, por 100 mililitros
+
+5
+00:00:14,980 --> 00:00:15,870
+o por porción.
+
+6
+00:00:17,180 --> 00:00:20,360
+Se apoya en análisis del producto o en
+
+7
+00:00:20,360 --> 00:00:22,370
+cálculo a partir de la receta.
+
+8
+00:00:23,723 --> 00:00:27,233
+Debes poder respaldar cada cifra con un documento,
+
+9
+00:00:27,403 --> 00:00:29,943
+un reporte de laboratorio o una memoria de
+
+10
+00:00:29,943 --> 00:00:30,513
+cálculo.
+

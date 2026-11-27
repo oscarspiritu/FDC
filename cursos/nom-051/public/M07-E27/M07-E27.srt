@@ -1,0 +1,28 @@
+1
+00:00:04,200 --> 00:00:07,020
+Un importador de reinoza recibió una caja con
+
+2
+00:00:07,020 --> 00:00:08,330
+etiqueta solo en inglés.
+
+3
+00:00:09,987 --> 00:00:13,007
+La etiqueta en español iba en un adhesivo
+
+4
+00:00:13,007 --> 00:00:14,517
+despegable que se caía.
+
+5
+00:00:15,167 --> 00:00:17,257
+Calidad exigió información fija.
+
+6
+00:00:18,647 --> 00:00:19,917
+lo que pide el punto.
+
+7
+00:00:20,267 --> 00:00:22,577
+Español, visible y duradero.
+

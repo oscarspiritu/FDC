@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,340
+Una fábrica de totopos de Zacatecas aplicó la
+
+2
+00:00:07,340 --> 00:00:08,650
+lista paso a paso.
+
+3
+00:00:09,985 --> 00:00:12,375
+Encontró dos errores antes de imprimir.
+
+4
+00:00:12,885 --> 00:00:14,865
+El sello de sodio estaba en un tamaño
+
+5
+00:00:14,865 --> 00:00:16,855
+menor y faltaba el domicilio.
+
+6
+00:00:17,225 --> 00:00:19,355
+Corrigió y ahorró una reimpresión.
+
+7
+00:00:20,645 --> 00:00:23,125
+Lo que pide el punto lista antes de
+
+8
+00:00:23,125 --> 00:00:23,795
+imprimir.
+

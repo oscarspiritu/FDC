@@ -1,0 +1,28 @@
+1
+00:00:04,200 --> 00:00:07,640
+Una importadora de pastas italianas en Tijuana pegaba
+
+2
+00:00:07,640 --> 00:00:10,270
+una etiqueta con su nombre pero sin domicilio.
+
+3
+00:00:11,490 --> 00:00:14,340
+Una tienda departamental rechazó el lote.
+
+4
+00:00:14,670 --> 00:00:17,710
+Agregaron razón social y domicilio fiscal en un
+
+5
+00:00:17,710 --> 00:00:19,800
+sobre etiqueta antes de distribuir.
+
+6
+00:00:21,110 --> 00:00:23,770
+Lo que pide el punto, datos completos del
+
+7
+00:00:23,770 --> 00:00:24,560
+responsable.
+

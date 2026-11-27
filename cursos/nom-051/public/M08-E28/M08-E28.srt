@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,220
+Una empacadora de Culiacán recibió una visita de
+
+2
+00:00:07,220 --> 00:00:07,830
+verificación.
+
+3
+00:00:09,340 --> 00:00:12,460
+Su responsable mostró en 10 minutos el expediente
+
+4
+00:00:12,460 --> 00:00:13,250
+de etiqueta.
+
+5
+00:00:13,500 --> 00:00:15,990
+Cálculo, aprobación y evidencia.
+
+6
+00:00:16,140 --> 00:00:18,330
+La visita siguió sin contratiempos.
+
+7
+00:00:19,840 --> 00:00:21,070
+Lo que pide el punto.
+
+8
+00:00:21,400 --> 00:00:22,630
+Expediente listo.
+

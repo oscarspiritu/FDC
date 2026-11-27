@@ -1,0 +1,48 @@
+1
+00:00:04,200 --> 00:00:05,610
+Te presento un caso.
+
+2
+00:00:06,100 --> 00:00:09,000
+Una bebida láctea con edulcorante y cafeína de
+
+3
+00:00:09,000 --> 00:00:10,750
+una empresa ficticia de Yucatán.
+
+4
+00:00:12,920 --> 00:00:15,170
+Tienes ellos en el orden incorrecto.
+
+5
+00:00:15,340 --> 00:00:17,230
+Falta la leyenda de cafeína.
+
+6
+00:00:17,720 --> 00:00:19,780
+Lleva una mascota y la fecha se imprimió
+
+7
+00:00:19,780 --> 00:00:21,230
+con tinta que se borra.
+
+8
+00:00:22,662 --> 00:00:26,142
+Con la lista del vídeo anterior, localiza cada
+
+9
+00:00:26,142 --> 00:00:28,412
+error, pausa el vídeo y hazlo.
+
+10
+00:00:28,862 --> 00:00:29,952
+Luego comparamos.
+
+11
+00:00:30,542 --> 00:00:33,242
+Sarsolutions te enseña que corregir una etiqueta es
+
+12
+00:00:33,242 --> 00:00:35,072
+un proceso, no un juicio.
+

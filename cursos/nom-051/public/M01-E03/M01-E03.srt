@@ -1,0 +1,44 @@
+1
+00:00:04,200 --> 00:00:06,840
+Un comprador de una cadena de tiendas en
+
+2
+00:00:06,840 --> 00:00:09,730
+Monterrey le dijo a una fábrica de botanas.
+
+3
+00:00:10,240 --> 00:00:11,950
+Cumplan con la Norma Nueva.
+
+4
+00:00:13,361 --> 00:00:15,071
+La fábrica no sabía cuál.
+
+5
+00:00:15,521 --> 00:00:18,061
+Su responsable de calidad pidió el documento y
+
+6
+00:00:18,061 --> 00:00:18,751
+la fecha.
+
+7
+00:00:18,901 --> 00:00:22,001
+Era el acuerdo de 2025, un ajuste de
+
+8
+00:00:22,001 --> 00:00:23,931
+plazos, no una norma nueva.
+
+9
+00:00:24,221 --> 00:00:26,131
+Ahorraron semanas de rediseño.
+
+10
+00:00:27,404 --> 00:00:30,304
+Lo que pide el punto, identificar el documento
+
+11
+00:00:30,304 --> 00:00:31,094
+y su fecha.
+

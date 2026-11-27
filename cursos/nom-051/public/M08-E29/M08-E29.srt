@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,040
+Una cadena de supermercados de Torreón pidió a
+
+2
+00:00:07,040 --> 00:00:09,990
+una fábrica de lácteos una constancia de cumplimiento.
+
+3
+00:00:11,486 --> 00:00:15,006
+La fábrica contrató una unidad de verificación acreditada
+
+4
+00:00:15,006 --> 00:00:16,556
+y preparó su expediente.
+
+5
+00:00:17,246 --> 00:00:18,896
+Les entregaron el documento.
+
+6
+00:00:20,066 --> 00:00:21,436
+Lo que pide el punto.
+
+7
+00:00:21,706 --> 00:00:24,726
+La constancia exige cumplir los capítulos 4 a
+
+8
+00:00:24,726 --> 00:00:25,136
+7.
+

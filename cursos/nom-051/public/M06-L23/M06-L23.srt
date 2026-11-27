@@ -1,0 +1,40 @@
+1
+00:00:04,200 --> 00:00:07,460
+Una declaración de propiedades es cualquier mensaje que
+
+2
+00:00:07,460 --> 00:00:10,240
+afirma que el producto tiene una cualidad nutrimental
+
+3
+00:00:10,240 --> 00:00:12,980
+o saludable, como alto en fibra o bajo
+
+4
+00:00:12,980 --> 00:00:13,650
+en grasa.
+
+5
+00:00:14,100 --> 00:00:17,460
+Están reguladas en el numeral 4 .6 y
+
+6
+00:00:17,460 --> 00:00:18,670
+en el capítulo 6.
+
+7
+00:00:19,060 --> 00:00:21,380
+Solo puedes usarlas si el producto cumple las
+
+8
+00:00:21,380 --> 00:00:24,450
+condiciones del capítulo y respaldas la afirmación.
+
+9
+00:00:25,745 --> 00:00:29,185
+Sarsolutions te recomienda archivar la evidencia de cada
+
+10
+00:00:29,185 --> 00:00:29,995
+declaración.
+

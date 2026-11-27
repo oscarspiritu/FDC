@@ -1,0 +1,92 @@
+1
+00:00:04,200 --> 00:00:07,660
+El numeral 4 .2 .2 pide la lista
+
+2
+00:00:07,660 --> 00:00:08,690
+de ingredientes.
+
+3
+00:00:09,990 --> 00:00:13,170
+Se encabeza con ingredientes y se ordena en
+
+4
+00:00:13,170 --> 00:00:14,780
+orden cuantitativo de creciente.
+
+5
+00:00:15,470 --> 00:00:18,790
+Desde la modificación, los azúcares añadidos se agrupan
+
+6
+00:00:18,790 --> 00:00:22,250
+bajo azúcares añadidos con sus denominaciones específicas y
+
+7
+00:00:22,250 --> 00:00:23,990
+los alérgenos se declaran al final de la
+
+8
+00:00:23,990 --> 00:00:24,400
+lista.
+
+9
+00:00:24,990 --> 00:00:27,250
+Con la leyenda puede contener en negrillas cuando
+
+10
+00:00:27,250 --> 00:00:28,700
+hay contaminación cruzada.
+
+11
+00:00:29,270 --> 00:00:32,630
+Si un ingrediente compuesto representa menos del 5%,
+
+12
+00:00:32,630 --> 00:00:35,370
+no hace falta listar sus partes, salvo los
+
+13
+00:00:35,370 --> 00:00:38,580
+aditivos con función tecnológica o asociados a alergias.
+
+14
+00:00:39,050 --> 00:00:41,680
+Y solo un producto de un único ingrediente,
+
+15
+00:00:41,710 --> 00:00:43,760
+y sin aditivos puede omitir la lista.
+
+16
+00:00:45,210 --> 00:00:47,950
+Revisa cada materia prima de la receta contra
+
+17
+00:00:47,950 --> 00:00:48,820
+la etiqueta.
+
+18
+00:00:49,210 --> 00:00:51,250
+Y recuerda que de la lista dependen las
+
+19
+00:00:51,250 --> 00:00:51,860
+leyendas.
+
+20
+00:00:52,310 --> 00:00:55,550
+Si hay edulcorantes o cafeína añadida, la etiqueta
+
+21
+00:00:55,550 --> 00:00:56,380
+debe decirlo.
+
+22
+00:00:56,790 --> 00:00:58,680
+Y eso lo veremos en el módulo 5.
+
+23
+00:00:59,290 --> 00:01:01,620
+Sar Solutions te acompaña en cada paso.
+

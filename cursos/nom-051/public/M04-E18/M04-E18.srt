@@ -1,0 +1,28 @@
+1
+00:00:04,200 --> 00:00:06,960
+Una lata de bebida de Monterrey llevaba el
+
+2
+00:00:06,960 --> 00:00:09,580
+sello a un centímetro de ancho, cuando su
+
+3
+00:00:09,580 --> 00:00:11,770
+superficie pedía 2 .5.
+
+4
+00:00:13,359 --> 00:00:14,909
+Una revisión no detectó.
+
+5
+00:00:15,139 --> 00:00:16,169
+Rediseñaron la lata.
+
+6
+00:00:17,539 --> 00:00:20,819
+Lo que pide el punto, medir primero, luego
+
+7
+00:00:20,819 --> 00:00:21,969
+elegir el tamaño.
+

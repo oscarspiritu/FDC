@@ -1,0 +1,40 @@
+1
+00:00:04,200 --> 00:00:08,410
+El numeral 4 .5 trata el etiquetado nutrimental.
+
+2
+00:00:09,820 --> 00:00:13,280
+Tiene dos partes, la declaración nutrimental, que es
+
+3
+00:00:13,280 --> 00:00:17,000
+obligatoria y la información nutrimental complementaria que incluye
+
+4
+00:00:17,000 --> 00:00:17,810
+los sellos.
+
+5
+00:00:18,100 --> 00:00:21,300
+En el numeral 4 .5 .1 se establecen
+
+6
+00:00:21,300 --> 00:00:24,050
+los componentes que forman parte de ese etiquetado.
+
+7
+00:00:26,240 --> 00:00:29,060
+Piensa en la tabla nutrimental como la ficha
+
+8
+00:00:29,060 --> 00:00:31,280
+técnica del producto y en los sellos como
+
+9
+00:00:31,280 --> 00:00:32,790
+el aviso de advertencia.
+
+10
+00:00:33,860 --> 00:00:36,850
+Sarsolutions te enseña a prepararlas en ese orden.
+

@@ -1,0 +1,52 @@
+1
+00:00:04,200 --> 00:00:07,240
+El contenido neto es lo que realmente compra
+
+2
+00:00:07,240 --> 00:00:08,010
+el cliente.
+
+3
+00:00:09,260 --> 00:00:13,320
+En la norma original, número 4 .2 .3
+
+4
+00:00:13,320 --> 00:00:16,600
+.1, se declara en unidades del sistema general
+
+5
+00:00:16,600 --> 00:00:19,000
+de unidades de medida conforme a la NOM
+
+6
+00:00:19,000 --> 00:00:21,230
+-030 SCFI 2006.
+
+7
+00:00:22,320 --> 00:00:24,770
+Si el producto viene en líquido de cobertura,
+
+8
+00:00:24,940 --> 00:00:27,010
+se declara también la masa drenada.
+
+9
+00:00:27,380 --> 00:00:29,720
+Cuida la altura mínima de los caracteres según
+
+10
+00:00:29,720 --> 00:00:32,040
+el tamaño del envase y colócalo en la
+
+11
+00:00:32,040 --> 00:00:33,230
+superficie principal.
+
+12
+00:00:34,926 --> 00:00:38,366
+Sar Solutions te recomienda comparar tres embases del
+
+13
+00:00:38,366 --> 00:00:39,756
+mismo lote con la etiqueta.
+

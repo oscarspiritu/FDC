@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,840
+Una fábrica de sopas instantáneas de Querétaro redondeaba
+
+2
+00:00:07,840 --> 00:00:09,720
+el sodio al múltiplo de 10 que le
+
+3
+00:00:09,720 --> 00:00:10,390
+parecía.
+
+4
+00:00:11,863 --> 00:00:15,003
+Una verificación mostró que la cifra rebasaba la
+
+5
+00:00:15,003 --> 00:00:15,793
+tolerancia.
+
+6
+00:00:16,263 --> 00:00:18,873
+Aplicaron la tabla 5 y documentaron.
+
+7
+00:00:20,443 --> 00:00:23,103
+lo que pide el punto Redondear con la
+
+8
+00:00:23,103 --> 00:00:23,653
+tabla.
+

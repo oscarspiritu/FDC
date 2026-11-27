@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,360
+La etiqueta debe indicar el nombre, denominación o
+
+2
+00:00:07,360 --> 00:00:10,420
+razón social y el domicilio fiscal del responsable
+
+3
+00:00:10,420 --> 00:00:11,130
+del producto.
+
+4
+00:00:11,280 --> 00:00:14,470
+Numeral 4 .2 .4 .1.
+
+5
+00:00:15,980 --> 00:00:19,020
+Si el producto es importado, la información en
+
+6
+00:00:19,020 --> 00:00:21,870
+español debe incluir los datos del importador.
+
+7
+00:00:23,040 --> 00:00:25,960
+Esto permite al consumidor y a la autoridad
+
+8
+00:00:25,960 --> 00:00:27,550
+saber a quién reclamar.
+

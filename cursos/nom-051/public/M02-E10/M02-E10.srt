@@ -1,0 +1,36 @@
+1
+00:00:04,200 --> 00:00:07,000
+Un distribuidor de saltillo cambió la fecha de
+
+2
+00:00:07,000 --> 00:00:09,780
+caducidad de unos yogures con una etiqueta nueva
+
+3
+00:00:09,780 --> 00:00:10,290
+encima.
+
+4
+00:00:11,872 --> 00:00:14,852
+Una verificadora lo detectó por la diferencia de
+
+5
+00:00:14,852 --> 00:00:15,402
+tinta.
+
+6
+00:00:15,732 --> 00:00:17,892
+Se le suspendió la venta y perdió el
+
+7
+00:00:17,892 --> 00:00:18,382
+lote.
+
+8
+00:00:19,911 --> 00:00:21,361
+Lo que pide el punto.
+
+9
+00:00:21,691 --> 00:00:23,641
+La fecha no puede alterarse.
+

@@ -1,0 +1,80 @@
+1
+00:00:04,200 --> 00:00:06,710
+La tabla 6 fija los umbrales.
+
+2
+00:00:08,060 --> 00:00:11,780
+Para productos sólidos por cada 100 gramos, el
+
+3
+00:00:11,780 --> 00:00:16,080
+sello de energía aplica cuando hay 275 kilocalorías
+
+4
+00:00:16,080 --> 00:00:16,670
+o más.
+
+5
+00:00:17,420 --> 00:00:19,980
+El de azúcares, cuando el 10 % o
+
+6
+00:00:19,980 --> 00:00:22,870
+más de la energía proviene de azúcares libres.
+
+7
+00:00:23,500 --> 00:00:26,180
+El de grasas saturadas, cuando el 10 %
+
+8
+00:00:26,180 --> 00:00:28,700
+o más de la energía proviene de grasas
+
+9
+00:00:28,700 --> 00:00:29,490
+saturadas.
+
+10
+00:00:29,820 --> 00:00:32,140
+El de grasas trans, cuando el 1 %
+
+11
+00:00:32,140 --> 00:00:32,950
+o más.
+
+12
+00:00:34,377 --> 00:00:37,237
+Y el desodio, cuando hay un miligramos o
+
+13
+00:00:37,237 --> 00:00:40,407
+más por kilocaloría, o 300 miligramos o más,
+
+14
+00:00:40,597 --> 00:00:43,567
+en bebidas sin calorías, 45 miligramos o más.
+
+15
+00:00:43,817 --> 00:00:47,477
+Para líquidos, por cada 100 mililitros, 70 kilocalorías
+
+16
+00:00:47,477 --> 00:00:50,277
+totales o más, u 8 kilocalorías de azúcares
+
+17
+00:00:50,277 --> 00:00:50,827
+libres.
+
+18
+00:00:51,217 --> 00:00:53,127
+Verifica siempre la fase vigente.
+
+19
+00:00:53,917 --> 00:00:55,797
+Sarsolutions te da una hoja de cálculo para
+
+20
+00:00:55,797 --> 00:00:56,467
+evaluarlo.
+

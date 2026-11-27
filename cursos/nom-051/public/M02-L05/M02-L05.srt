@@ -1,0 +1,84 @@
+1
+00:00:04,200 --> 00:00:07,180
+El primer dato obligatorio es el nombre o
+
+2
+00:00:07,180 --> 00:00:08,570
+denominación del producto.
+
+3
+00:00:08,860 --> 00:00:11,110
+Númeral 4 .2 .1.
+
+4
+00:00:11,180 --> 00:00:14,500
+Debe indicar la verdadera naturaleza del producto, en
+
+5
+00:00:14,500 --> 00:00:17,450
+términos específicos, sin confundir al consumidor.
+
+6
+00:00:19,020 --> 00:00:21,190
+No va hasta una marca de fantasía.
+
+7
+00:00:21,380 --> 00:00:22,510
+Crunchy es marca.
+
+8
+00:00:22,880 --> 00:00:24,980
+Botana de maíz con sabor a queso es
+
+9
+00:00:24,980 --> 00:00:25,730
+denominación.
+
+10
+00:00:27,120 --> 00:00:31,860
+Según el numeral 4 .2 .1 .1, en
+
+11
+00:00:31,860 --> 00:00:35,260
+la modificación de 2020, la denominación va en
+
+12
+00:00:35,260 --> 00:00:38,400
+negrillas, en la superficie principal de exhibición y
+
+13
+00:00:38,400 --> 00:00:41,220
+paralela a la base del envase, con un
+
+14
+00:00:41,220 --> 00:00:43,300
+tamaño igual o mayor que el del contenido
+
+15
+00:00:43,300 --> 00:00:44,070
+neto.
+
+16
+00:00:44,440 --> 00:00:47,220
+Si el producto es imitación, no se usan
+
+17
+00:00:47,220 --> 00:00:48,890
+palabras como tipo o estilo.
+
+18
+00:00:49,400 --> 00:00:51,910
+En Sarsolutions la regla práctica es esta.
+
+19
+00:00:52,280 --> 00:00:54,300
+Si el cliente no puede saber qué es
+
+20
+00:00:54,300 --> 00:00:57,320
+el producto con solo leer la denominación, está
+
+21
+00:00:57,320 --> 00:00:57,730
+mal.
+

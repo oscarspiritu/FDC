@@ -1,0 +1,28 @@
+1
+00:00:04,200 --> 00:00:07,160
+Una empresa de bebidas de Mérida mostró a
+
+2
+00:00:07,160 --> 00:00:10,010
+su equipo la etiqueta original y la corregida.
+
+3
+00:00:11,482 --> 00:00:14,512
+El equipo entendió por qué cada cambio importaba.
+
+4
+00:00:14,862 --> 00:00:17,482
+Desde entonces revisan toda etiqueta nueva con la
+
+5
+00:00:17,482 --> 00:00:17,892
+lista.
+
+6
+00:00:19,342 --> 00:00:20,672
+Lo que pide el punto.
+
+7
+00:00:21,062 --> 00:00:22,212
+Proceso repetible.
+

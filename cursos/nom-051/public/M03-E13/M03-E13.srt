@@ -1,0 +1,24 @@
+1
+00:00:04,200 --> 00:00:08,200
+Una galletera de Toluca imprimió 160 kilocalorías cuando
+
+2
+00:00:08,200 --> 00:00:10,310
+el cálculo daba 185.
+
+3
+00:00:11,660 --> 00:00:14,050
+Un laboratorio externo lo detectó.
+
+4
+00:00:14,520 --> 00:00:16,430
+Corrigió el cálculo y el diseño.
+
+5
+00:00:17,840 --> 00:00:19,130
+Lo que pide el punto.
+
+6
+00:00:19,360 --> 00:00:21,630
+Cálculo verificado antes de imprimir.
+

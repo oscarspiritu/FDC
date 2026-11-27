@@ -1,0 +1,44 @@
+1
+00:00:04,200 --> 00:00:06,880
+El país de origen se indica con una
+
+2
+00:00:06,880 --> 00:00:10,060
+leyenda como hecho en, producto de o fabricado
+
+3
+00:00:10,060 --> 00:00:13,790
+en, numeral 4 .2 .5 .1.
+
+4
+00:00:14,340 --> 00:00:16,260
+Y el lote es una clave que permite
+
+5
+00:00:16,260 --> 00:00:19,880
+rastrear el producto, precedida de indicaciones como lote
+
+6
+00:00:19,880 --> 00:00:23,620
+o L, numeral es 4 .2 .6 .1
+
+7
+00:00:23,620 --> 00:00:26,050
+a 4 .2 .6 .3.
+
+8
+00:00:27,622 --> 00:00:30,722
+Una buena clave de lote conecta la etiqueta
+
+9
+00:00:30,722 --> 00:00:32,252
+con tu registro de producción.
+
+10
+00:00:32,722 --> 00:00:35,442
+SAR Solutions te recomienda definir una regla de
+
+11
+00:00:35,442 --> 00:00:37,012
+lote y no cambiarla.
+

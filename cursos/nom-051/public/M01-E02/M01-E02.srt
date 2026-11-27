@@ -1,0 +1,48 @@
+1
+00:00:04,200 --> 00:00:07,360
+En una embotelladora de jugos de Guadalajara, el
+
+2
+00:00:07,360 --> 00:00:10,220
+diseñador puso los sellos en la contra etiqueta,
+
+3
+00:00:10,220 --> 00:00:12,740
+junto al código de barras, porque se veía
+
+4
+00:00:12,740 --> 00:00:13,650
+más limpio.
+
+5
+00:00:14,867 --> 00:00:17,567
+El área de calidad le preguntó cuál era
+
+6
+00:00:17,567 --> 00:00:19,877
+la superficie principal de exhibición.
+
+7
+00:00:20,087 --> 00:00:21,807
+Era la cara que ve el cliente en
+
+8
+00:00:21,807 --> 00:00:22,477
+el anacel.
+
+9
+00:00:22,767 --> 00:00:25,137
+Los sellos estaban en el lugar equivocado.
+
+10
+00:00:25,407 --> 00:00:27,837
+Se reimprimieron 1500 etiquetas.
+
+11
+00:00:29,274 --> 00:00:32,134
+Lo que pide el punto, ubicar la superficie
+
+12
+00:00:32,134 --> 00:00:34,624
+principal de exhibición antes de diseñar.
+

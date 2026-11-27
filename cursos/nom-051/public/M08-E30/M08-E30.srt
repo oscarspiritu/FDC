@@ -1,0 +1,36 @@
+1
+00:00:04,200 --> 00:00:07,160
+Una dulcería de San Luis Potosí cambió jarabe
+
+2
+00:00:07,160 --> 00:00:09,820
+por edulcorante en una paleta y reutilizó las
+
+3
+00:00:09,820 --> 00:00:10,470
+etiquetas.
+
+4
+00:00:11,866 --> 00:00:13,906
+El cliente notó la diferencia en la lista
+
+5
+00:00:13,906 --> 00:00:15,616
+de ingredientes y reportó.
+
+6
+00:00:15,806 --> 00:00:19,286
+Retiraron el producto, corrigieron y establecieron revisión por
+
+7
+00:00:19,286 --> 00:00:19,696
+cambio.
+
+8
+00:00:21,029 --> 00:00:22,319
+Lo que pide el punto.
+
+9
+00:00:22,649 --> 00:00:25,239
+Toda receta nueva exige etiqueta revisada.
+

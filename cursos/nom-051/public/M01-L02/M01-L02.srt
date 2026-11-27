@@ -1,0 +1,76 @@
+1
+00:00:04,200 --> 00:00:07,160
+Antes de etiquetar, hay que hablar el mismo
+
+2
+00:00:07,160 --> 00:00:08,450
+idioma que la norma.
+
+3
+00:00:09,717 --> 00:00:13,397
+Etiqueta es cualquier marvete, rótulo o inscripción que
+
+4
+00:00:13,397 --> 00:00:14,527
+acompaña el producto.
+
+5
+00:00:15,417 --> 00:00:17,877
+Producto preembasado es el que se embasa antes
+
+6
+00:00:17,877 --> 00:00:19,507
+de ofrecerse al consumidor.
+
+7
+00:00:20,057 --> 00:00:22,717
+La superficie principal de exhibición es la parte
+
+8
+00:00:22,717 --> 00:00:25,107
+de la etiqueta que el consumidor ve primero.
+
+9
+00:00:25,357 --> 00:00:26,887
+En ella van los sellos.
+
+10
+00:00:27,217 --> 00:00:30,167
+Y el sello, según el numeral 3 .45,
+
+11
+00:00:30,657 --> 00:00:32,877
+es un elemento gráfico en forma de octácono
+
+12
+00:00:32,877 --> 00:00:36,257
+negro con un contorno blanco, con las especificaciones
+
+13
+00:00:36,257 --> 00:00:37,207
+de la PEND -CA.
+
+14
+00:00:38,754 --> 00:00:41,994
+El sistema de etiquetado frontal comprende los sellos
+
+15
+00:00:41,994 --> 00:00:44,834
+y las leyendas de los numerales 7 .1
+
+16
+00:00:44,834 --> 00:00:47,764
+.3 y 7 .1 .4.
+
+17
+00:00:48,214 --> 00:00:51,414
+Memoriza estos cuatro términos, porque en los siguientes
+
+18
+00:00:51,414 --> 00:00:53,824
+módulos los vamos a usar todo el tiempo.
+
+19
+00:00:54,174 --> 00:00:56,164
+Así lo trabajamos en Sarsolutions.
+

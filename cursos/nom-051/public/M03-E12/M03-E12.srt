@@ -1,0 +1,28 @@
+1
+00:00:04,200 --> 00:00:07,600
+Una tortillería industrial de Puebla declaraba tres porciones
+
+2
+00:00:07,600 --> 00:00:10,520
+por paquete, pero el paquete traía ocho tortillas
+
+3
+00:00:10,520 --> 00:00:12,970
+de 30 gramos y la porción decía 60.
+
+4
+00:00:14,491 --> 00:00:16,061
+Los números no cuadraban.
+
+5
+00:00:16,251 --> 00:00:18,521
+Corrigieron la porción y recalcularon.
+
+6
+00:00:19,791 --> 00:00:21,201
+Lo que pide el punto.
+
+7
+00:00:21,431 --> 00:00:24,341
+Coherencia entre porción, paquete y declaración.
+

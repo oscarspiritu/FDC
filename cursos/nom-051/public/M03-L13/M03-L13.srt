@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,440
+La tabla nutrimental tiene reglas de presentación en
+
+2
+00:00:07,440 --> 00:00:11,090
+el numeral 4 .5 .2 .4.
+
+3
+00:00:11,400 --> 00:00:13,650
+Formato, orden y legibilidad.
+
+4
+00:00:15,100 --> 00:00:17,280
+y la energía se calcula conforme al número
+
+5
+00:00:17,280 --> 00:00:21,410
+al 5 .1 .1, con factores por nutrimiento.
+
+6
+00:00:22,762 --> 00:00:25,852
+Un error clásico es sumar mal las calorías.
+
+7
+00:00:26,422 --> 00:00:29,042
+Sarsolutions te recomienda validar el cálculo con una
+
+8
+00:00:29,042 --> 00:00:30,032
+hoja de verificación.
+

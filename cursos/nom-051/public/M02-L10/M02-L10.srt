@@ -1,0 +1,48 @@
+1
+00:00:04,200 --> 00:00:07,720
+La fecha de caducidado de consumo preferente se
+
+2
+00:00:07,720 --> 00:00:09,840
+declara con día y mes si la duración
+
+3
+00:00:09,840 --> 00:00:11,590
+máxima es de tres meses.
+
+4
+00:00:12,140 --> 00:00:13,990
+Y con mes y año si es mayor,
+
+5
+00:00:14,300 --> 00:00:17,270
+numeral 4 .2 .7 .1.
+
+6
+00:00:17,620 --> 00:00:22,430
+No puede alterarse, numeral 4 .2 .7 .3.
+
+7
+00:00:23,858 --> 00:00:27,118
+Y hay productos exentos como el vinagre, la
+
+8
+00:00:27,118 --> 00:00:30,068
+sal de calidad alimentaria y el azúcar sólido,
+
+9
+00:00:30,178 --> 00:00:33,628
+numeral 4 .2 .7 .4.
+
+10
+00:00:33,798 --> 00:00:36,058
+Revisa que la fecha sea legible y que
+
+11
+00:00:36,058 --> 00:00:37,588
+no se borre con el manejo.
+
+12
+00:00:37,838 --> 00:00:39,968
+Así lo trabajamos en Sarsolutions.
+

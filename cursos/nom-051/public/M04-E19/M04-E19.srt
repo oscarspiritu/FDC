@@ -1,0 +1,28 @@
+1
+00:00:04,200 --> 00:00:07,040
+Una empresa de barras de cereal de Puebla
+
+2
+00:00:07,040 --> 00:00:09,300
+usó un gris oscuro para que el sello
+
+3
+00:00:09,300 --> 00:00:10,630
+combinara con la marca.
+
+4
+00:00:11,985 --> 00:00:13,515
+La revisión le pidió negro.
+
+5
+00:00:13,785 --> 00:00:14,915
+Cambió la plancha.
+
+6
+00:00:16,275 --> 00:00:19,295
+Lo que pide el punto, respetar el apéndice
+
+7
+00:00:19,295 --> 00:00:20,125
+sin adornos.
+

@@ -1,0 +1,36 @@
+1
+00:00:04,200 --> 00:00:07,900
+Una dulcería de Toluca vende chiclosos en envolturas
+
+2
+00:00:07,900 --> 00:00:08,430
+chicas.
+
+3
+00:00:09,980 --> 00:00:13,800
+Su superficie era de 35 cm², así que
+
+4
+00:00:13,800 --> 00:00:15,960
+correspondía a un solo sello con el número
+
+5
+00:00:15,960 --> 00:00:17,690
+de nutrimientos en exceso.
+
+6
+00:00:18,060 --> 00:00:20,750
+El diseñador iba a poner cuatro sellos.
+
+7
+00:00:21,140 --> 00:00:21,870
+Corrigieron.
+
+8
+00:00:23,200 --> 00:00:26,060
+Lo que pide el punto, usar la regla
+
+9
+00:00:26,060 --> 00:00:27,270
+de embases pequeños.
+

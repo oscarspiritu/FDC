@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,240
+Una quesería de chihuahua tuvo que retirar un
+
+2
+00:00:07,240 --> 00:00:08,490
+lote por una queja.
+
+3
+00:00:09,987 --> 00:00:12,207
+Como cada pieza traía la clave de lote
+
+4
+00:00:12,207 --> 00:00:14,997
+impresa, retiró solo 300 piezas.
+
+5
+00:00:15,107 --> 00:00:17,907
+Sin lote, habría retirado toda la producción de
+
+6
+00:00:17,907 --> 00:00:18,417
+la semana.
+
+7
+00:00:19,899 --> 00:00:22,639
+Lo que pide el punto, lote legible y
+
+8
+00:00:22,639 --> 00:00:23,449
+rastreable.
+

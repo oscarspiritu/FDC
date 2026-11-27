@@ -1,0 +1,32 @@
+1
+00:00:04,200 --> 00:00:07,830
+El apéndice A define las características del sello.
+
+2
+00:00:08,180 --> 00:00:11,880
+Octágono negro, contorno blanco, texto en mayúsculas con
+
+3
+00:00:11,880 --> 00:00:13,410
+tipografía Arial Bold.
+
+4
+00:00:14,220 --> 00:00:16,330
+Cada sello lleva su leyenda dentro.
+
+5
+00:00:17,240 --> 00:00:19,150
+No se deforma ni se cambia el color.
+
+6
+00:00:20,700 --> 00:00:24,180
+La norma incluye figuras con las proporciones, y
+
+7
+00:00:24,180 --> 00:00:27,150
+es importante usar los archivos de referencia oficiales.
+
+8
+00:00:27,740 --> 00:00:31,370
+Sarsolutions te recomienda guardar los archivos vectoriales aprobados.
+

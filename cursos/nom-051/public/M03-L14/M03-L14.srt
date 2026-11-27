@@ -1,0 +1,40 @@
+1
+00:00:04,200 --> 00:00:07,230
+La norma reconoce que el valor real varía.
+
+2
+00:00:08,540 --> 00:00:13,560
+El numeral 4 .5 .2 .4 .14 habla
+
+3
+00:00:13,560 --> 00:00:16,900
+de tolerancia y cumplimiento y el 4 .5
+
+4
+00:00:16,900 --> 00:00:21,080
+.2 .4 .16 establece el redondeo con la
+
+5
+00:00:21,080 --> 00:00:21,950
+tabla 5.
+
+6
+00:00:23,280 --> 00:00:24,930
+Redondear no es opcional.
+
+7
+00:00:25,420 --> 00:00:26,710
+Se hace según la tabla.
+
+8
+00:00:27,040 --> 00:00:30,040
+Una cifra redondeada a criterio propio puede generar
+
+9
+00:00:30,040 --> 00:00:31,090
+un incumplimiento.
+
+10
+00:00:31,520 --> 00:00:33,330
+Así trabajamos en Sarsolutions.
+
